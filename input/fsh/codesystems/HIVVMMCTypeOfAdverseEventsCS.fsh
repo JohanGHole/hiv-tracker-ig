@@ -1,0 +1,20 @@
+CodeSystem: HIVVMMCTypeOfAdverseEventsCS
+Title: "HIV - VMMC: Type of adverse events"
+* ^meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"
+* ^meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"
+* ^experimental = false
+* ^caseSensitive = true
+* #"ABNORMAL_PAIN" "Abnormal pain"
+* #"ANAESTHESIA_RELATED_EFFECTS" "Anaesthesia-related effects"
+* #"BLEEDING" "Bleeding"
+* #"DAMAGE_PENIS" "Damage to the penis"
+* #"DIFFICULTY_URINATING" "Difficulty urinating"
+* #"EXCESSIVE_BLEEDING" "Excessive bleeding"
+* #"EXCESSIVE_SKIN_REMOVAL" "Excessive skin removal"
+* #"EXCESSIVE_SWELLING" "Excessive swelling"
+* #"HAEMATOMA" "Haematoma"
+* #"INFECTION" "Infection"
+* #"INJURY_GLANS" "Injury to glans"
+* #"SCAR_DISFIGUREMENT" "Scar or disfigurement"
+* #"SHARPS_INJURY_PERSONNEL" "Sharps injury to personnel"
+* #"WOUND_DISRUPTION" "Wound disruption"

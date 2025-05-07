@@ -1,0 +1,9 @@
+CodeSystem: HIVTypeOfCondomsCS
+Title: "HIV - Type of condoms"
+* ^meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"
+* ^meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"
+* ^experimental = false
+* ^caseSensitive = true
+* #"MALE" "Male"
+* #"FEMALE" "Female"
+* #"BOTH" "Both"

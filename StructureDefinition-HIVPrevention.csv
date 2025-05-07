@@ -1,0 +1,33 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"HIVPrevention","HIVPrevention","","","",0,*,"","","","null {[]} {[]}
+","HIV Prevention","HIV Prevention","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"HIVPrevention.hivProgram","HIVPrevention.hivProgram","","","",0,1,"","","","string {[]} {[]}
+","HIV Program ID (For example, ART Number)","HIV Program ID (For example, ART Number)","","","","","","","","","",,,,,"",,,,"HIVPrevention.hivProgram",0,1,"",""
+"HIVPrevention.familyName","HIVPrevention.familyName","","","",0,1,"","","","string {[]} {[]}
+","Family name or last name of the patient of case.","Family name or last name of the patient of case.","","","","","","","","","",,,,,"",,,,"HIVPrevention.familyName",0,1,"",""
+"HIVPrevention.givenName","HIVPrevention.givenName","","","",0,1,"","","","string {[]} {[]}
+","First name","First name","","","","","","","","","",,,,,"",,,,"HIVPrevention.givenName",0,1,"",""
+"HIVPrevention.dateOfBirth","HIVPrevention.dateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","","","","","","","","","",,,,,"",,,,"HIVPrevention.dateOfBirth",0,1,"",""
+"HIVPrevention.dateOfBirthUnknown","HIVPrevention.dateOfBirthUnknown","","","",0,1,"","","","boolean {[]} {[]}
+","Is the client's DOB is unknown?","Is the client's DOB is unknown?","","","","","","","","","",,,,,"",,,,"HIVPrevention.dateOfBirthUnknown",0,1,"",""
+"HIVPrevention.ageYears","HIVPrevention.ageYears","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV.A.DE16","HIV.A.DE16","","","","","","","","","",,,,,"",,,,"HIVPrevention.ageYears",0,1,"",""
+"HIVPrevention.ageMonths","HIVPrevention.ageMonths","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV.A.DE16","HIV.A.DE16","","","","","","","","","",,,,,"",,,,"HIVPrevention.ageMonths",0,1,"",""
+"HIVPrevention.sexAssignedAtBirth","HIVPrevention.sexAssignedAtBirth","","","",0,1,"","","","code {[]} {[]}
+","Sex assigned at birth","Sex assigned at birth","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVSexAtBirthVS","",,,,"HIVPrevention.sexAssignedAtBirth",0,1,"",""
+"HIVPrevention.gender","HIVPrevention.gender","","","",0,1,"","","","code {[]} {[]}
+","Gender","Gender","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVGenderVS","",,,,"HIVPrevention.gender",0,1,"",""
+"HIVPrevention.countryOfBirth","HIVPrevention.countryOfBirth","","","",0,1,"","","","code {[]} {[]}
+","Country where the client was born","Country where the client was born","","","","","","","","","",,"required","","http://example.org/ValueSet/GENCountriesVS","",,,,"HIVPrevention.countryOfBirth",0,1,"",""
+"HIVPrevention.addressCurrent","HIVPrevention.addressCurrent","","","",0,1,"","","","string {[]} {[]}
+","HIV.A.DE29","HIV.A.DE29","","","","","","","","","",,,,,"",,,,"HIVPrevention.addressCurrent",0,1,"",""
+"HIVPrevention.phoneNumber","HIVPrevention.phoneNumber","","","",0,1,"","","","string {[]} {[]}
+","HIV.A.DE42","HIV.A.DE42","","","","","","","","","",,,,,"",,,,"HIVPrevention.phoneNumber",0,1,"",""
+"HIVPrevention.nationalId","HIVPrevention.nationalId","","","",0,1,"","","","string {[]} {[]}
+","Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.","Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.","","","","","","","","","",,,,,"",,,,"HIVPrevention.nationalId",0,1,"",""
+"HIVPrevention.initialCaseReport","HIVPrevention.initialCaseReport","","","",0,1,"","","","http://example.org/StructureDefinition/InitialCaseReport {[]} {[]}
+","Initial case report","Initial case report","","","","","","","","","",,,,,"",,,,"HIVPrevention.initialCaseReport",0,1,"",""
+"HIVPrevention.visit","HIVPrevention.visit","","","",0,*,"","","","http://example.org/StructureDefinition/Visit {[]} {[]}
+","Visit","Visit","","","","","","","","","",,,,,"",,,,"HIVPrevention.visit",0,*,"",""

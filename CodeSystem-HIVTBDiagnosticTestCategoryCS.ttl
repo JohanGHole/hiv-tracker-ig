@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/HIVTBDiagnosticTestCategoryCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "HIVTBDiagnosticTestCategoryCS"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVTBDiagnosticTestCategoryCS</b></p><a name=\"HIVTBDiagnosticTestCategoryCS\"> </a><a name=\"hcHIVTBDiagnosticTestCategoryCS\"> </a><a name=\"HIVTBDiagnosticTestCategoryCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVTBDiagnosticTestCategoryCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LF_LAM<a name=\"HIVTBDiagnosticTestCategoryCS-LF_LAM\"> </a></td><td>LF-LAM</td></tr><tr><td style=\"white-space:nowrap\">MWRD_TEST_TB<a name=\"HIVTBDiagnosticTestCategoryCS-MWRD_TEST_TB\"> </a></td><td>mWRD test for TB</td></tr><tr><td style=\"white-space:nowrap\">MICROSCOPY_AFB<a name=\"HIVTBDiagnosticTestCategoryCS-MICROSCOPY_AFB\"> </a></td><td>Microscopy - Sputum acid-fast bacilli</td></tr><tr><td style=\"white-space:nowrap\">TB_CULTURE<a name=\"HIVTBDiagnosticTestCategoryCS-TB_CULTURE\"> </a></td><td>TB culture</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/HIVTBDiagnosticTestCategoryCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "HIVTBDiagnosticTestCategoryCS"] ; # 
+  fhir:title [ fhir:v "HIV - TB diagnostic test category"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-05-07T10:57:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "LF_LAM" ] ;
+     fhir:display [ fhir:v "LF-LAM" ]
+  ] [
+     fhir:code [ fhir:v "MWRD_TEST_TB" ] ;
+     fhir:display [ fhir:v "mWRD test for TB" ]
+  ] [
+     fhir:code [ fhir:v "MICROSCOPY_AFB" ] ;
+     fhir:display [ fhir:v "Microscopy - Sputum acid-fast bacilli" ]
+  ] [
+     fhir:code [ fhir:v "TB_CULTURE" ] ;
+     fhir:display [ fhir:v "TB culture" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

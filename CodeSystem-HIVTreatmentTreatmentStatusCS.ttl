@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/HIVTreatmentTreatmentStatusCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "HIVTreatmentTreatmentStatusCS"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVTreatmentTreatmentStatusCS</b></p><a name=\"HIVTreatmentTreatmentStatusCS\"> </a><a name=\"hcHIVTreatmentTreatmentStatusCS\"> </a><a name=\"HIVTreatmentTreatmentStatusCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVTreatmentTreatmentStatusCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">INITIATION_NEW<a name=\"HIVTreatmentTreatmentStatusCS-INITIATION_NEW\"> </a></td><td>Initiation (new)</td></tr><tr><td style=\"white-space:nowrap\">INITIATION_OLD<a name=\"HIVTreatmentTreatmentStatusCS-INITIATION_OLD\"> </a></td><td>Initiation (after stopping)</td></tr><tr><td style=\"white-space:nowrap\">ON_ART<a name=\"HIVTreatmentTreatmentStatusCS-ON_ART\"> </a></td><td>On ART</td></tr><tr><td style=\"white-space:nowrap\">REFUSED_TREATMENT<a name=\"HIVTreatmentTreatmentStatusCS-REFUSED_TREATMENT\"> </a></td><td>Refused treatment</td></tr><tr><td style=\"white-space:nowrap\">STOPPED_TREATMENT<a name=\"HIVTreatmentTreatmentStatusCS-STOPPED_TREATMENT\"> </a></td><td>Stopped treatment</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/HIVTreatmentTreatmentStatusCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "HIVTreatmentTreatmentStatusCS"] ; # 
+  fhir:title [ fhir:v "HIV - Treatment: Treatment Status"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-05-07T10:57:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "INITIATION_NEW" ] ;
+     fhir:display [ fhir:v "Initiation (new)" ]
+  ] [
+     fhir:code [ fhir:v "INITIATION_OLD" ] ;
+     fhir:display [ fhir:v "Initiation (after stopping)" ]
+  ] [
+     fhir:code [ fhir:v "ON_ART" ] ;
+     fhir:display [ fhir:v "On ART" ]
+  ] [
+     fhir:code [ fhir:v "REFUSED_TREATMENT" ] ;
+     fhir:display [ fhir:v "Refused treatment" ]
+  ] [
+     fhir:code [ fhir:v "STOPPED_TREATMENT" ] ;
+     fhir:display [ fhir:v "Stopped treatment" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

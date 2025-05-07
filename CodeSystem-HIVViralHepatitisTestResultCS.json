@@ -1,0 +1,42 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "HIVViralHepatitisTestResultCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVViralHepatitisTestResultCS</b></p><a name=\"HIVViralHepatitisTestResultCS\"> </a><a name=\"hcHIVViralHepatitisTestResultCS\"> </a><a name=\"HIVViralHepatitisTestResultCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVViralHepatitisTestResultCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">POSITIVE<a name=\"HIVViralHepatitisTestResultCS-POSITIVE\"> </a></td><td>Positive</td></tr><tr><td style=\"white-space:nowrap\">NEGATIVE<a name=\"HIVViralHepatitisTestResultCS-NEGATIVE\"> </a></td><td>Negative</td></tr><tr><td style=\"white-space:nowrap\">INDETERMINATE<a name=\"HIVViralHepatitisTestResultCS-INDETERMINATE\"> </a></td><td>Indeterminate</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/HIVViralHepatitisTestResultCS",
+  "version" : "0.1.0",
+  "name" : "HIVViralHepatitisTestResultCS",
+  "title" : "HIV - Viral hepatitis test result",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-05-07T10:57:06+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "POSITIVE",
+    "display" : "Positive"
+  },
+  {
+    "code" : "NEGATIVE",
+    "display" : "Negative"
+  },
+  {
+    "code" : "INDETERMINATE",
+    "display" : "Indeterminate"
+  }]
+}

@@ -1,0 +1,485 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/ValueSet/GENCountriesVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GENCountriesVS",
+      "title" : "GEN - Countries value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/GENCountriesCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVANCHIVStatusFirstVisitVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVANCHIVStatusFirstVisitVS",
+      "title" : "HIV - ANC HIV status first visit value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVANCHIVStatusFirstVisitCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVARTStopReasonsVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVARTStopReasonsVS",
+      "title" : "HIV - ART stop reasons value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVARTStopReasonsCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVCervicalCancerDiagnosisVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVCervicalCancerDiagnosisVS",
+      "title" : "HIV - Cervical cancer diagnosis value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVCervicalCancerDiagnosisCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVCervicalCancerScreeningOutcomeVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVCervicalCancerScreeningOutcomeVS",
+      "title" : "HIV - Cervical cancer screening outcome value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVCervicalCancerScreeningOutcomeCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVCervicalCancerTreatmentTypeVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVCervicalCancerTreatmentTypeVS",
+      "title" : "HIV - Cervical cancer: treatment type value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVCervicalCancerTreatmentTypeCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVDSDARTModelSVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVDSDARTModelSVS",
+      "title" : "HIV - DSD ART model(s) value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVDSDARTModelSCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVExperienceVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVExperienceVS",
+      "title" : "HIV - Experience value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVExperienceCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVFacilityLevelTestingEntryPointVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVFacilityLevelTestingEntryPointVS",
+      "title" : "HIV - Facility level testing entry point value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVFacilityLevelTestingEntryPointCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVFollowUpMethodsVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVFollowUpMethodsVS",
+      "title" : "HIV - Follow-up Methods value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVFollowUpMethodsCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVFollowUpOutcomesVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVFollowUpOutcomesVS",
+      "title" : "HIV - Follow-up Outcomes value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVFollowUpOutcomesCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVGenderVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVGenderVS",
+      "title" : "HIV - Gender value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVGenderCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVHBVTreatmentStatusVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVHBVTreatmentStatusVS",
+      "title" : "HIV - HBV treatment status value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVHBVTreatmentStatusCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVHCVMedicineTypeVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVHCVMedicineTypeVS",
+      "title" : "HIV - HCV medicine type value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVHCVMedicineTypeCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVHCVTestTypeVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVHCVTestTypeVS",
+      "title" : "HIV - HCV test type value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVHCVTestTypeCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVHCVTreatmentStatusVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVHCVTreatmentStatusVS",
+      "title" : "HIV - HCV treatment status value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVHCVTreatmentStatusCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVHCVViralLoadVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVHCVViralLoadVS",
+      "title" : "HIV - HCV viral load value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVHCVViralLoadCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVHIVTestHIVSelfTestUseVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVHIVTestHIVSelfTestUseVS",
+      "title" : "HIV - HIV test: HIV self-test - Use value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVHIVTestHIVSelfTestUseCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVHIVTestResultVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVHIVTestResultVS",
+      "title" : "HIV - HIV test result value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVHIVTestResultCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVHPVDosesReceivedVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVHPVDosesReceivedVS",
+      "title" : "HIV - HPV doses received value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVHPVDosesReceivedCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVListStisVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVListStisVS",
+      "title" : "HIV - List STIs value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVListStisCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVOAMTFormulationVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVOAMTFormulationVS",
+      "title" : "HIV - OAMT formulation value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVOAMTFormulationCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPEPExposureVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPEPExposureVS",
+      "title" : "HIV - PEP exposure value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPEPExposureCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPEPNonOccupationalVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPEPNonOccupationalVS",
+      "title" : "HIV - PEP non-occupational value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPEPNonOccupationalCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPEPTypeOfVisitVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPEPTypeOfVisitVS",
+      "title" : "HIV - PEP: type of visit value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPEPTypeOfVisitCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPMTCTTestTypeVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPMTCTTestTypeVS",
+      "title" : "HIV - PMTCT test type value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPMTCTTestTypeCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPartnerHIVStatusVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPartnerHIVStatusVS",
+      "title" : "HIV - Partner HIV status value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPartnerHIVStatusCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPlaceOfDeliveryVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPlaceOfDeliveryVS",
+      "title" : "HIV - Place of delivery value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPlaceOfDeliveryCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPrepAdverseEffectVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPrepAdverseEffectVS",
+      "title" : "HIV - PrEP adverse effect value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPrepAdverseEffectCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPrepDosingTypeVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPrepDosingTypeVS",
+      "title" : "HIV - PrEP dosing type value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPrepDosingTypeCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPrepFormulationVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPrepFormulationVS",
+      "title" : "HIV - PrEP formulation value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVPrepFormulationCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVPrepReasonDiscontinuationVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVPrepReasonDiscontinuationVS",
+      "title" : "HIV - PrEP reason discontinuation value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVPrepReasonDiscontinuationCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVProbableRouteOfTransmissionVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVProbableRouteOfTransmissionVS",
+      "title" : "HIV - Probable route of transmission value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVProbableRouteOfTransmissionCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVReasonForFollowUpVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVReasonForFollowUpVS",
+      "title" : "HIV - Reason for Follow up value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVReasonForFollowUpCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVSTATUSVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVSTATUSVS",
+      "title" : "HIV - STATUS value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVSTATUSCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVSTISyndromeAssignedVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVSTISyndromeAssignedVS",
+      "title" : "HIV - STI syndrome assigned value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVSTISyndromeAssignedCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVSexAtBirthVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVSexAtBirthVS",
+      "title" : "HIV - Sex at birth value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVSexAtBirthCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTBDiagnosticTestCategoryVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTBDiagnosticTestCategoryVS",
+      "title" : "HIV - TB diagnostic test category value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVTBDiagnosticTestCategoryCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTBTestResultVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTBTestResultVS",
+      "title" : "HIV - TB test result value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVTBTestResultCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTPTPreventiveTreatmentVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTPTPreventiveTreatmentVS",
+      "title" : "HIV - TPT preventive treatment value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVTPTPreventiveTreatmentCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTPTRegimenVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTPTRegimenVS",
+      "title" : "HIV - TPT Regimen value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVTPTRegimenCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTestProvisionVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTestProvisionVS",
+      "title" : "HIV - Test provision value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVTestProvisionCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTestResultVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTestResultVS",
+      "title" : "HIV - Test result value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVTestResultCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTestTBStatusVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTestTBStatusVS",
+      "title" : "HIV - Test: TB status value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVTestTBStatusCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTreatmentTreatmentStatusVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTreatmentTreatmentStatusVS",
+      "title" : "HIV - Treatment: Treatment Status value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVTreatmentTreatmentStatusCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTypeOfCommunityLevelTestingVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTypeOfCommunityLevelTestingVS",
+      "title" : "HIV - Type of community level testing value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVTypeOfCommunityLevelTestingCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVTypeOfCondomsVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVTypeOfCondomsVS",
+      "title" : "HIV - Type of condoms value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVTypeOfCondomsCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVVMMCSeverityOfAdverseEventsVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVVMMCSeverityOfAdverseEventsVS",
+      "title" : "HIV - VMMC: Severity of adverse events value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVVMMCSeverityOfAdverseEventsCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVVMMCTimingOfAdverseEventsVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVVMMCTimingOfAdverseEventsVS",
+      "title" : "HIV - VMMC: Timing of adverse events value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVVMMCTimingOfAdverseEventsCS"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVVMMCTypeOfAdverseEventsVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVVMMCTypeOfAdverseEventsVS",
+      "title" : "HIV - VMMC: Type of adverse events value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/HIVVMMCTypeOfAdverseEventsCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/HIVViralHepatitisTestResultVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "HIVViralHepatitisTestResultVS",
+      "title" : "HIV - Viral hepatitis test result value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/HIVViralHepatitisTestResultCS"
+      ]
+    }
+  ]
+}

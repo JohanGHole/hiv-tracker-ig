@@ -1,0 +1,343 @@
+"Profile","Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"FollowUp","FollowUp","FollowUp","","","",0,*,"","","","null {[]} {[]}
+","Follow-up","Used when there is a need to contact the client","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"FollowUp","FollowUp.hivFollowUpMethod","FollowUp.hivFollowUpMethod","","","",0,1,"","","","code {[]} {[]}
+","HIV - Follow up Method","HIV - Follow up Method","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVFollowUpMethodsVS","",,,,"FollowUp.hivFollowUpMethod",0,1,"",""
+"FollowUp","FollowUp.hivFollowUpOutcome","FollowUp.hivFollowUpOutcome","","","",0,1,"","","","code {[]} {[]}
+","HIV - Follow up Outcome","HIV - Follow up Outcome","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVFollowUpOutcomesVS","",,,,"FollowUp.hivFollowUpOutcome",0,1,"",""
+"FollowUp","FollowUp.hivFollowUpNotes","FollowUp.hivFollowUpNotes","","","",0,1,"","","","string {[]} {[]}
+","HIV - Follow-up Notes","HIV - Follow-up Notes","","","","","","","","","",,,,,"",,,,"FollowUp.hivFollowUpNotes",0,1,"",""
+"FollowUp","FollowUp.hivFollowUpReason","FollowUp.hivFollowUpReason","","","",0,1,"","","","code {[]} {[]}
+","HIV - Follow up Reason","HIV - Follow up Reason","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVReasonForFollowUpVS","",,,,"FollowUp.hivFollowUpReason",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance","HIVCaseSurveillance","","","",0,*,"","","","null {[]} {[]}
+","HIV - Case Surveillance","HIV - Case Surveillance","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.hivProgram","HIVCaseSurveillance.hivProgram","","","",0,1,"","","","string {[]} {[]}
+","HIV Program ID (For example, ART Number)","HIV Program ID (For example, ART Number)","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.hivProgram",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.familyName","HIVCaseSurveillance.familyName","","","",0,1,"","","","string {[]} {[]}
+","Family name or last name of the patient of case.","Family name or last name of the patient of case.","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.familyName",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.givenName","HIVCaseSurveillance.givenName","","","",0,1,"","","","string {[]} {[]}
+","First name","First name","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.givenName",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.sexAssignedAtBirth","HIVCaseSurveillance.sexAssignedAtBirth","","","",0,1,"","","","code {[]} {[]}
+","Sex assigned at birth","Sex assigned at birth","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVSexAtBirthVS","",,,,"HIVCaseSurveillance.sexAssignedAtBirth",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.gender","HIVCaseSurveillance.gender","","","",0,1,"","","","code {[]} {[]}
+","Gender","Gender","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVGenderVS","",,,,"HIVCaseSurveillance.gender",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.dateOfBirth","HIVCaseSurveillance.dateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.dateOfBirth",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.dateOfBirthUnknown","HIVCaseSurveillance.dateOfBirthUnknown","","","",0,1,"","","","boolean {[]} {[]}
+","Is the client's DOB is unknown?","Is the client's DOB is unknown?","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.dateOfBirthUnknown",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.ageYears","HIVCaseSurveillance.ageYears","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV.A.DE16","HIV.A.DE16","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.ageYears",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.ageMonths","HIVCaseSurveillance.ageMonths","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV.A.DE16","HIV.A.DE16","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.ageMonths",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.countryOfBirth","HIVCaseSurveillance.countryOfBirth","","","",0,1,"","","","code {[]} {[]}
+","Country where the client was born","Country where the client was born","","","","","","","","","",,"required","","http://example.org/ValueSet/GENCountriesVS","",,,,"HIVCaseSurveillance.countryOfBirth",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.addressCurrent","HIVCaseSurveillance.addressCurrent","","","",0,1,"","","","string {[]} {[]}
+","HIV.A.DE29","HIV.A.DE29","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.addressCurrent",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.phoneNumber","HIVCaseSurveillance.phoneNumber","","","",0,1,"","","","string {[]} {[]}
+","HIV.A.DE42","HIV.A.DE42","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.phoneNumber",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.nationalId","HIVCaseSurveillance.nationalId","","","",0,1,"","","","string {[]} {[]}
+","Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.","Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.nationalId",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.initialCaseReport","HIVCaseSurveillance.initialCaseReport","","","",0,1,"","","","http://example.org/StructureDefinition/InitialCaseReport {[]} {[]}
+","Initial Case Report","Initial Case Report","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.initialCaseReport",0,1,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.visit","HIVCaseSurveillance.visit","","","",0,*,"","","","http://example.org/StructureDefinition/Visit {[]} {[]}
+","Visit","Visit","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.visit",0,*,"",""
+"HIVCaseSurveillance","HIVCaseSurveillance.followUp","HIVCaseSurveillance.followUp","","","",0,*,"","","","http://example.org/StructureDefinition/FollowUp {[]} {[]}
+","Used when there is a need to contact the client","Used when there is a need to contact the client","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.followUp",0,*,"",""
+"HIVPrevention","HIVPrevention","HIVPrevention","","","",0,*,"","","","null {[]} {[]}
+","HIV Prevention","HIV Prevention","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"HIVPrevention","HIVPrevention.hivProgram","HIVPrevention.hivProgram","","","",0,1,"","","","string {[]} {[]}
+","HIV Program ID (For example, ART Number)","HIV Program ID (For example, ART Number)","","","","","","","","","",,,,,"",,,,"HIVPrevention.hivProgram",0,1,"",""
+"HIVPrevention","HIVPrevention.familyName","HIVPrevention.familyName","","","",0,1,"","","","string {[]} {[]}
+","Family name or last name of the patient of case.","Family name or last name of the patient of case.","","","","","","","","","",,,,,"",,,,"HIVPrevention.familyName",0,1,"",""
+"HIVPrevention","HIVPrevention.givenName","HIVPrevention.givenName","","","",0,1,"","","","string {[]} {[]}
+","First name","First name","","","","","","","","","",,,,,"",,,,"HIVPrevention.givenName",0,1,"",""
+"HIVPrevention","HIVPrevention.dateOfBirth","HIVPrevention.dateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","","","","","","","","","",,,,,"",,,,"HIVPrevention.dateOfBirth",0,1,"",""
+"HIVPrevention","HIVPrevention.dateOfBirthUnknown","HIVPrevention.dateOfBirthUnknown","","","",0,1,"","","","boolean {[]} {[]}
+","Is the client's DOB is unknown?","Is the client's DOB is unknown?","","","","","","","","","",,,,,"",,,,"HIVPrevention.dateOfBirthUnknown",0,1,"",""
+"HIVPrevention","HIVPrevention.ageYears","HIVPrevention.ageYears","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV.A.DE16","HIV.A.DE16","","","","","","","","","",,,,,"",,,,"HIVPrevention.ageYears",0,1,"",""
+"HIVPrevention","HIVPrevention.ageMonths","HIVPrevention.ageMonths","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV.A.DE16","HIV.A.DE16","","","","","","","","","",,,,,"",,,,"HIVPrevention.ageMonths",0,1,"",""
+"HIVPrevention","HIVPrevention.sexAssignedAtBirth","HIVPrevention.sexAssignedAtBirth","","","",0,1,"","","","code {[]} {[]}
+","Sex assigned at birth","Sex assigned at birth","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVSexAtBirthVS","",,,,"HIVPrevention.sexAssignedAtBirth",0,1,"",""
+"HIVPrevention","HIVPrevention.gender","HIVPrevention.gender","","","",0,1,"","","","code {[]} {[]}
+","Gender","Gender","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVGenderVS","",,,,"HIVPrevention.gender",0,1,"",""
+"HIVPrevention","HIVPrevention.countryOfBirth","HIVPrevention.countryOfBirth","","","",0,1,"","","","code {[]} {[]}
+","Country where the client was born","Country where the client was born","","","","","","","","","",,"required","","http://example.org/ValueSet/GENCountriesVS","",,,,"HIVPrevention.countryOfBirth",0,1,"",""
+"HIVPrevention","HIVPrevention.addressCurrent","HIVPrevention.addressCurrent","","","",0,1,"","","","string {[]} {[]}
+","HIV.A.DE29","HIV.A.DE29","","","","","","","","","",,,,,"",,,,"HIVPrevention.addressCurrent",0,1,"",""
+"HIVPrevention","HIVPrevention.phoneNumber","HIVPrevention.phoneNumber","","","",0,1,"","","","string {[]} {[]}
+","HIV.A.DE42","HIV.A.DE42","","","","","","","","","",,,,,"",,,,"HIVPrevention.phoneNumber",0,1,"",""
+"HIVPrevention","HIVPrevention.nationalId","HIVPrevention.nationalId","","","",0,1,"","","","string {[]} {[]}
+","Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.","Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.","","","","","","","","","",,,,,"",,,,"HIVPrevention.nationalId",0,1,"",""
+"HIVPrevention","HIVPrevention.initialCaseReport","HIVPrevention.initialCaseReport","","","",0,1,"","","","http://example.org/StructureDefinition/InitialCaseReport {[]} {[]}
+","Initial case report","Initial case report","","","","","","","","","",,,,,"",,,,"HIVPrevention.initialCaseReport",0,1,"",""
+"HIVPrevention","HIVPrevention.visit","HIVPrevention.visit","","","",0,*,"","","","http://example.org/StructureDefinition/Visit {[]} {[]}
+","Visit","Visit","","","","","","","","","",,,,,"",,,,"HIVPrevention.visit",0,*,"",""
+"InitialCaseReport","InitialCaseReport","InitialCaseReport","","","",0,*,"","","","null {[]} {[]}
+","Initial case report","Initial case report","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"InitialCaseReport","InitialCaseReport.keyPopulationMember","InitialCaseReport.keyPopulationMember","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Any","HIV - Key population - Any","","","","","","","","","",,,,,"",,,,"InitialCaseReport.keyPopulationMember",0,1,"",""
+"InitialCaseReport","InitialCaseReport.personWhoInjectDrugss","InitialCaseReport.personWhoInjectDrugss","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Person who inject drugs","HIV - Key population - Person who inject drugs","","","","","","","","","",,,,,"",,,,"InitialCaseReport.personWhoInjectDrugss",0,1,"",""
+"InitialCaseReport","InitialCaseReport.msm","InitialCaseReport.msm","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Men who have sex with men","HIV - Key population - Men who have sex with men","","","","","","","","","",,,,,"",,,,"InitialCaseReport.msm",0,1,"",""
+"InitialCaseReport","InitialCaseReport.peopleLivingInPrisonsAndOtherClosedSetting","InitialCaseReport.peopleLivingInPrisonsAndOtherClosedSetting","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - People living in prisons and other closed settings","HIV - Key population - People living in prisons and other closed settings","","","","","","","","","",,,,,"",,,,"InitialCaseReport.peopleLivingInPrisonsAndOtherClosedSetting",0,1,"",""
+"InitialCaseReport","InitialCaseReport.sexWorker","InitialCaseReport.sexWorker","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Sex worker","HIV - Key population - Sex worker","","","","","","","","","",,,,,"",,,,"InitialCaseReport.sexWorker",0,1,"",""
+"InitialCaseReport","InitialCaseReport.transAndGenderDiversePeople","InitialCaseReport.transAndGenderDiversePeople","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Trans and gender-diverse people","HIV - Key population - Trans and gender-diverse people","","","","","","","","","",,,,,"",,,,"InitialCaseReport.transAndGenderDiversePeople",0,1,"",""
+"Visit","Visit","Visit","","","",0,*,"","","","null {[]} {[]}
+","Visit","Visit","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Visit","Visit.personWhoInjectDrugssVisit","Visit.personWhoInjectDrugssVisit","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Person who inject drugs - VISIT","HIV - Key population - Person who inject drugs - VISIT","","","","","","","","","",,,,,"",,,,"Visit.personWhoInjectDrugssVisit",0,1,"",""
+"Visit","Visit.msmVisit","Visit.msmVisit","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Men who have sex with men - VISIT","HIV - Key population - Men who have sex with men - VISIT","","","","","","","","","",,,,,"",,,,"Visit.msmVisit",0,1,"",""
+"Visit","Visit.prisonerVisit","Visit.prisonerVisit","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Prisoner - VISIT","HIV - Key population - Prisoner - VISIT","","","","","","","","","",,,,,"",,,,"Visit.prisonerVisit",0,1,"",""
+"Visit","Visit.sexWorkerVisit","Visit.sexWorkerVisit","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Sex worker - VISIT","HIV - Key population - Sex worker - VISIT","","","","","","","","","",,,,,"",,,,"Visit.sexWorkerVisit",0,1,"",""
+"Visit","Visit.transAndGenderDiversePeopleVisit","Visit.transAndGenderDiversePeopleVisit","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Trans and gender-diverse people - VISIT","HIV - Key population - Trans and gender-diverse people - VISIT","","","","","","","","","",,,,,"",,,,"Visit.transAndGenderDiversePeopleVisit",0,1,"",""
+"Visit","Visit.visitDetailsOpioidDependant","Visit.visitDetailsOpioidDependant","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Visit details: Opioid dependant","HIV - Visit details: Opioid dependant","","","","","","","","","",,,,,"",,,,"Visit.visitDetailsOpioidDependant",0,1,"",""
+"Visit","Visit.substantialRisk","Visit.substantialRisk","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Substantial risk","HIV - Substantial risk","","","","","","","","","",,,,,"",,,,"Visit.substantialRisk",0,1,"",""
+"Visit","Visit.substantialRiskDate","Visit.substantialRiskDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - Substantial risk date","HIV - Substantial risk date","","","","","","","","","",,,,,"",,,,"Visit.substantialRiskDate",0,1,"",""
+"Visit","Visit.riskAssessment","Visit.riskAssessment","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Risk assessment","HIV - Risk assessment","","","","","","","","","",,,,,"",,,,"Visit.riskAssessment",0,1,"",""
+"Visit","Visit.condoms","Visit.condoms","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Condoms","HIV - Condoms","","","","","","","","","",,,,,"",,,,"Visit.condoms",0,1,"",""
+"Visit","Visit.hivTest","Visit.hivTest","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - HIV test","HIV - HIV test","","","","","","","","","",,,,,"",,,,"Visit.hivTest",0,1,"",""
+"Visit","Visit.prep","Visit.prep","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - PrEP","HIV - PrEP","","","","","","","","","",,,,,"",,,,"Visit.prep",0,1,"",""
+"Visit","Visit.pep","Visit.pep","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - PEP","HIV - PEP","","","","","","","","","",,,,,"",,,,"Visit.pep",0,1,"",""
+"Visit","Visit.nsp","Visit.nsp","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - NSP","HIV - NSP","","","","","","","","","",,,,,"",,,,"Visit.nsp",0,1,"",""
+"Visit","Visit.oamt","Visit.oamt","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT","HIV - OAMT","","","","","","","","","",,,,,"",,,,"Visit.oamt",0,1,"",""
+"Visit","Visit.vmmc","Visit.vmmc","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - VMMC","HIV - VMMC","","","","","","","","","",,,,,"",,,,"Visit.vmmc",0,1,"",""
+"Visit","Visit.sti","Visit.sti","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - STI","HIV - STI","","","","","","","","","",,,,,"",,,,"Visit.sti",0,1,"",""
+"Visit","Visit.viralHepatitis","Visit.viralHepatitis","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Viral hepatitis","HIV - Viral hepatitis","","","","","","","","","",,,,,"",,,,"Visit.viralHepatitis",0,1,"",""
+"Visit","Visit.hadANonRegularSexPartner","Visit.hadANonRegularSexPartner","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - RA: Had a non-regular sex partner during the past 12 months","HIV - RA: Had a non-regular sex partner during the past 12 months","","","","","","","","","",,,,,"",,,,"Visit.hadANonRegularSexPartner",0,1,"",""
+"Visit","Visit.hadSexWithAKnownHivUnknownHiv","Visit.hadSexWithAKnownHivUnknownHiv","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - RA: Had sex with a known HIV positive and/or unknown HIV status person during the past 12 months","HIV - RA: Had sex with a known HIV positive and/or unknown HIV status person during the past 12 months","","","","","","","","","",,,,,"",,,,"Visit.hadSexWithAKnownHivUnknownHiv",0,1,"",""
+"Visit","Visit.hadBeenDiagnosedOrReceivedTreatmentForASti","Visit.hadBeenDiagnosedOrReceivedTreatmentForASti","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - RA: Had the client and/or partner been diagnosed or received treatment for a STI during the past 12 months","HIV - RA: Had the client and/or partner been diagnosed or received treatment for a STI during the past 12 months","","","","","","","","","",,,,,"",,,,"Visit.hadBeenDiagnosedOrReceivedTreatmentForASti",0,1,"",""
+"Visit","Visit.exchangedSexForMoneyOrGoods","Visit.exchangedSexForMoneyOrGoods","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - RA: Exchanged sex for money or goods during the past 12 months","HIV - RA: Exchanged sex for money or goods during the past 12 months","","","","","","","","","",,,,,"",,,,"Visit.exchangedSexForMoneyOrGoods",0,1,"",""
+"Visit","Visit.hadInjectDrugs","Visit.hadInjectDrugs","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - RA: Had inject drugs during the past 12 months","HIV - RA: Had inject drugs during the past 12 months","","","","","","","","","",,,,,"",,,,"Visit.hadInjectDrugs",0,1,"",""
+"Visit","Visit.hadSexWithAMan","Visit.hadSexWithAMan","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - RA: Had sex with a man during the past 12 months","HIV - RA: Had sex with a man during the past 12 months","","","","","","","","","",,,,,"",,,,"Visit.hadSexWithAMan",0,1,"",""
+"Visit","Visit.condomsReceived","Visit.condomsReceived","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Condoms: received","HIV - Condoms: received","","","","","","","","","",,,,,"",,,,"Visit.condomsReceived",0,1,"",""
+"Visit","Visit.condomsType","Visit.condomsType","","","",0,1,"","","","code {[]} {[]}
+","HIV - Condoms: type","HIV - Condoms: type","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVTypeOfCondomsVS","",,,,"Visit.condomsType",0,1,"",""
+"Visit","Visit.condomsQuantityMaleCondoms","Visit.condomsQuantityMaleCondoms","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - Condoms: quantity - male condoms","HIV - Condoms: quantity - male condoms","","","","","","","","","",,,,,"",,,,"Visit.condomsQuantityMaleCondoms",0,1,"",""
+"Visit","Visit.condomsQuantityFemaleCondoms","Visit.condomsQuantityFemaleCondoms","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - Condoms: quantity - female condoms","HIV - Condoms: quantity - female condoms","","","","","","","","","",,,,,"",,,,"Visit.condomsQuantityFemaleCondoms",0,1,"",""
+"Visit","Visit.hivTestTestingEntryPoint","Visit.hivTestTestingEntryPoint","","","",0,1,"","","","code {[]} {[]}
+","HIV - HIV test: Testing entry point","HIV - HIV test: Testing entry point","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVTestProvisionVS","",,,,"Visit.hivTestTestingEntryPoint",0,1,"",""
+"Visit","Visit.hivTestTbStatus","Visit.hivTestTbStatus","","","",0,1,"","","","code {[]} {[]}
+","HIV - HIV test: TB status","HIV - HIV test: TB status","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVTestTBStatusVS","",,,,"Visit.hivTestTbStatus",0,1,"",""
+"Visit","Visit.hivTestClientReferredThroughPartnerService","Visit.hivTestClientReferredThroughPartnerService","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - HIV test: Client referred through partner service","HIV - HIV test: Client referred through partner service","","","","","","","","","",,,,,"",,,,"Visit.hivTestClientReferredThroughPartnerService",0,1,"",""
+"Visit","Visit.hivTestPartnerHivStatus","Visit.hivTestPartnerHivStatus","","","",0,1,"","","","code {[]} {[]}
+","HIV - HIV test: Partner HIV status","HIV - HIV test: Partner HIV status","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVPartnerHIVStatusVS","",,,,"Visit.hivTestPartnerHivStatus",0,1,"",""
+"Visit","Visit.hivTestTestAdministered","Visit.hivTestTestAdministered","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - HIV test: Test administered","HIV - HIV test: Test administered","","","","","","","","","",,,,,"",,,,"Visit.hivTestTestAdministered",0,1,"",""
+"Visit","Visit.hivTestTestDate","Visit.hivTestTestDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - HIV test: Test date","HIV - HIV test: Test date","","","","","","","","","",,,,,"",,,,"Visit.hivTestTestDate",0,1,"",""
+"Visit","Visit.hivTestDateOfLastHivTest","Visit.hivTestDateOfLastHivTest","","","",0,1,"","","","date {[]} {[]}
+","HIV - HIV test: Date of last HIV test","HIV - HIV test: Date of last HIV test","","","","","","","","","",,,,,"",,,,"Visit.hivTestDateOfLastHivTest",0,1,"",""
+"Visit","Visit.hivTestTestResult","Visit.hivTestTestResult","","","",0,1,"","","","code {[]} {[]}
+","HIV - HIV test: Test result","HIV - HIV test: Test result","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVHIVTestResultVS","",,,,"Visit.hivTestTestResult",0,1,"",""
+"Visit","Visit.hivTestPreviouslyOnArv","Visit.hivTestPreviouslyOnArv","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - HIV test: Client report previous use of antiretrovirals for treatment?","HIV - HIV test: Client report previous use of antiretrovirals for treatment?","","","","","","","","","",,,,,"",,,,"Visit.hivTestPreviouslyOnArv",0,1,"",""
+"Visit","Visit.hivTestHivSelfTestDistributed","Visit.hivTestHivSelfTestDistributed","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - HIV test: HIV Self-test distributed","HIV - HIV test: HIV Self-test distributed","","","","","","","","","",,,,,"",,,,"Visit.hivTestHivSelfTestDistributed",0,1,"",""
+"Visit","Visit.hivTestHivSelfTestQuantity","Visit.hivTestHivSelfTestQuantity","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - HIV test: HIV self-test - Quantity","HIV - HIV test: HIV self-test - Quantity","","","","","","","","","",,,,,"",,,,"Visit.hivTestHivSelfTestQuantity",0,1,"",""
+"Visit","Visit.hivTestHivSelfTestUse","Visit.hivTestHivSelfTestUse","","","",0,1,"","","","code {[]} {[]}
+","HIV - HIV test: HIV self-test - Use","HIV - HIV test: HIV self-test - Use","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVHIVTestHIVSelfTestUseVS","",,,,"Visit.hivTestHivSelfTestUse",0,1,"",""
+"Visit","Visit.prepCurrentlyOnPrep","Visit.prepCurrentlyOnPrep","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - PrEP: Currently on PrEP","HIV - PrEP: Currently on PrEP","","","","","","","","","",,,,,"",,,,"Visit.prepCurrentlyOnPrep",0,1,"",""
+"Visit","Visit.prepPrepHasBeenRequestedByTheClient","Visit.prepPrepHasBeenRequestedByTheClient","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - PrEP: PrEP has been requested by the client","HIV - PrEP: PrEP has been requested by the client","","","","","","","","","",,,,,"",,,,"Visit.prepPrepHasBeenRequestedByTheClient",0,1,"",""
+"Visit","Visit.prepExperienceWithPrep","Visit.prepExperienceWithPrep","","","",0,1,"","","","code {[]} {[]}
+","HIV - PrEP: Experience with PrEP","HIV - PrEP: Experience with PrEP","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVExperienceVS","",,,,"Visit.prepExperienceWithPrep",0,1,"",""
+"Visit","Visit.prepSpecifyOtherExperienceWithPrep","Visit.prepSpecifyOtherExperienceWithPrep","","","",0,1,"","","","string {[]} {[]}
+","HIV - PrEP: Specify other experience with PrEP","HIV - PrEP: Specify other experience with PrEP","","","","","","","","","",,,,,"",,,,"Visit.prepSpecifyOtherExperienceWithPrep",0,1,"",""
+"Visit","Visit.prepReasonForDiscontinuationInterruption","Visit.prepReasonForDiscontinuationInterruption","","","",0,1,"","","","code {[]} {[]}
+","HIV - PrEP: Reason for discontinuation/interruption","HIV - PrEP: Reason for discontinuation/interruption","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVPrepReasonDiscontinuationVS","",,,,"Visit.prepReasonForDiscontinuationInterruption",0,1,"",""
+"Visit","Visit.prepSpecifyOtherReasonForDiscontinuation","Visit.prepSpecifyOtherReasonForDiscontinuation","","","",0,1,"","","","string {[]} {[]}
+","HIV - PrEP: Specify other reason for discontinuation","HIV - PrEP: Specify other reason for discontinuation","","","","","","","","","",,,,,"",,,,"Visit.prepSpecifyOtherReasonForDiscontinuation",0,1,"",""
+"Visit","Visit.prepAdverseEffect","Visit.prepAdverseEffect","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - PrEP: Adverse effect experienced","HIV - PrEP: Adverse effect experienced","","","","","","","","","",,,,,"",,,,"Visit.prepAdverseEffect",0,1,"",""
+"Visit","Visit.prepSpecifyAdverseEffectPrep","Visit.prepSpecifyAdverseEffectPrep","","","",0,1,"","","","code {[]} {[]}
+","HIV - PrEP: Specify adverse effect","HIV - PrEP: Specify adverse effect","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVPrepAdverseEffectVS","",,,,"Visit.prepSpecifyAdverseEffectPrep",0,1,"",""
+"Visit","Visit.prepSpecifyOtherAdverseEffect","Visit.prepSpecifyOtherAdverseEffect","","","",0,1,"","","","string {[]} {[]}
+","HIV - PrEP: Specify other adverse effect","HIV - PrEP: Specify other adverse effect","","","","","","","","","",,,,,"",,,,"Visit.prepSpecifyOtherAdverseEffect",0,1,"",""
+"Visit","Visit.prepPrepDeliveredAdministered","Visit.prepPrepDeliveredAdministered","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - PrEP: PrEP delivered/administered","HIV - PrEP: PrEP delivered/administered","","","","","","","","","",,,,,"",,,,"Visit.prepPrepDeliveredAdministered",0,1,"",""
+"Visit","Visit.prepDateOfPrepDeliveredAdministered","Visit.prepDateOfPrepDeliveredAdministered","","","",0,1,"","","","date {[]} {[]}
+","HIV - PrEP: Date of PrEP delivered/administered","HIV - PrEP: Date of PrEP delivered/administered","","","","","","","","","",,,,,"",,,,"Visit.prepDateOfPrepDeliveredAdministered",0,1,"",""
+"Visit","Visit.prepFormulation","Visit.prepFormulation","","","",0,1,"","","","code {[]} {[]}
+","HIV - PrEP: Formulation of PrEP delivered","HIV - PrEP: Formulation of PrEP delivered","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVPrepFormulationVS","",,,,"Visit.prepFormulation",0,1,"",""
+"Visit","Visit.prepPrepDosingType","Visit.prepPrepDosingType","","","",0,1,"","","","code {[]} {[]}
+","HIV - PrEP: dosing type","HIV - PrEP: dosing type","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVPrepDosingTypeVS","",,,,"Visit.prepPrepDosingType",0,1,"",""
+"Visit","Visit.prepQuantityDelivered","Visit.prepQuantityDelivered","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - PrEP: Volume of PrEP product prescribed/dispensed","HIV - PrEP: Volume of PrEP product prescribed/dispensed","","","","","","","","","",,,,,"",,,,"Visit.prepQuantityDelivered",0,1,"",""
+"Visit","Visit.pepTypeOfVisit","Visit.pepTypeOfVisit","","","",0,1,"","","","code {[]} {[]}
+","HIV - PEP: Type of visit","HIV - PEP: Type of visit","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVPEPTypeOfVisitVS","",,,,"Visit.pepTypeOfVisit",0,1,"",""
+"Visit","Visit.pepInitiationDate","Visit.pepInitiationDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - PEP: Initiation date","HIV - PEP: Initiation date","","","","","","","","","",,,,,"",,,,"Visit.pepInitiationDate",0,1,"",""
+"Visit","Visit.pepDueDate","Visit.pepDueDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - PEP: Due date","HIV - PEP: Due date","","","","","","","","","",,,,,"",,,,"Visit.pepDueDate",0,1,"",""
+"Visit","Visit.pepExposure","Visit.pepExposure","","","",0,1,"","","","code {[]} {[]}
+","HIV - PEP: Exposure","HIV - PEP: Exposure","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVPEPExposureVS","",,,,"Visit.pepExposure",0,1,"",""
+"Visit","Visit.pepNonOccupationalNature","Visit.pepNonOccupationalNature","","","",0,1,"","","","code {[]} {[]}
+","HIV - PEP: Non-occupational nature","HIV - PEP: Non-occupational nature","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVPEPNonOccupationalVS","",,,,"Visit.pepNonOccupationalNature",0,1,"",""
+"Visit","Visit.pepProphilaxisCorrectlyTaken","Visit.pepProphilaxisCorrectlyTaken","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - PEP: Prophilaxis course has been correctly and completely taken","HIV - PEP: Prophilaxis course has been correctly and completely taken","","","","","","","","","",,,,,"",,,,"Visit.pepProphilaxisCorrectlyTaken",0,1,"",""
+"Visit","Visit.pepCompletionDate","Visit.pepCompletionDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - PEP: Completion date","HIV - PEP: Completion date","","","","","","","","","",,,,,"",,,,"Visit.pepCompletionDate",0,1,"",""
+"Visit","Visit.pepLastPepInitiationDate","Visit.pepLastPepInitiationDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - PEP: Last PEP initiation date","HIV - PEP: Last PEP initiation date","","","","","","","","","",,,,,"",,,,"Visit.pepLastPepInitiationDate",0,1,"",""
+"Visit","Visit.nspAccessToNspService","Visit.nspAccessToNspService","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - NSP: Access to NSP service","HIV - NSP: Access to NSP service","","","","","","","","","",,,,,"",,,,"Visit.nspAccessToNspService",0,1,"",""
+"Visit","Visit.nspDateOfAccess","Visit.nspDateOfAccess","","","",0,1,"","","","date {[]} {[]}
+","HIV - NSP: Date of access","HIV - NSP: Date of access","","","","","","","","","",,,,,"",,,,"Visit.nspDateOfAccess",0,1,"",""
+"Visit","Visit.nspRegularAccess","Visit.nspRegularAccess","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - NSP: Regular access","HIV - NSP: Regular access","","","","","","","","","",,,,,"",,,,"Visit.nspRegularAccess",0,1,"",""
+"Visit","Visit.nspReceivedNeedleSyringes","Visit.nspReceivedNeedleSyringes","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - NSP: Received needle/syringes","HIV - NSP: Received needle/syringes","","","","","","","","","",,,,,"",,,,"Visit.nspReceivedNeedleSyringes",0,1,"",""
+"Visit","Visit.nspDateNeedlesSyringesReceived","Visit.nspDateNeedlesSyringesReceived","","","",0,1,"","","","date {[]} {[]}
+","HIV - NSP: Date needles/syringes received","HIV - NSP: Date needles/syringes received","","","","","","","","","",,,,,"",,,,"Visit.nspDateNeedlesSyringesReceived",0,1,"",""
+"Visit","Visit.nspNumberOfNeedlesSyringesProvided","Visit.nspNumberOfNeedlesSyringesProvided","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - NSP: Number of needles-syringes provided","HIV - NSP: Number of needles-syringes provided","","","","","","","","","",,,,,"",,,,"Visit.nspNumberOfNeedlesSyringesProvided",0,1,"",""
+"Visit","Visit.oamtOpioidDependent","Visit.oamtOpioidDependent","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT: Opioid dependent","HIV - OAMT: Opioid dependent","","","","","","","","","",,,,,"",,,,"Visit.oamtOpioidDependent",0,1,"",""
+"Visit","Visit.oamtCurrentlyUnderOamt","Visit.oamtCurrentlyUnderOamt","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT: Currently under OAMT","HIV - OAMT: Currently under OAMT","","","","","","","","","",,,,,"",,,,"Visit.oamtCurrentlyUnderOamt",0,1,"",""
+"Visit","Visit.oamtExperienceWithOamt","Visit.oamtExperienceWithOamt","","","",0,1,"","","","code {[]} {[]}
+","HIV - OAMT: Experience with OAMT","HIV - OAMT: Experience with OAMT","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVExperienceVS","",,,,"Visit.oamtExperienceWithOamt",0,1,"",""
+"Visit","Visit.oamtOamtDispensed","Visit.oamtOamtDispensed","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT: OAMT dispensed","HIV - OAMT: OAMT dispensed","","","","","","","","","",,,,,"",,,,"Visit.oamtOamtDispensed",0,1,"",""
+"Visit","Visit.oamtDateOfOamtDispensed","Visit.oamtDateOfOamtDispensed","","","",0,1,"","","","date {[]} {[]}
+","HIV - OAMT: Date of OAMT dispensed","HIV - OAMT: Date of OAMT dispensed","","","","","","","","","",,,,,"",,,,"Visit.oamtDateOfOamtDispensed",0,1,"",""
+"Visit","Visit.oamtReceivingMaintenanceDose","Visit.oamtReceivingMaintenanceDose","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT: Receiving maintenance dose","HIV - OAMT: Receiving maintenance dose","","","","","","","","","",,,,,"",,,,"Visit.oamtReceivingMaintenanceDose",0,1,"",""
+"Visit","Visit.oamtInductedOamtIncreasingDose","Visit.oamtInductedOamtIncreasingDose","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT: Inducted on OAMT and on an increasing dose","HIV - OAMT: Inducted on OAMT and on an increasing dose","","","","","","","","","",,,,,"",,,,"Visit.oamtInductedOamtIncreasingDose",0,1,"",""
+"Visit","Visit.oamtReducingOamtTreatmentCompletion","Visit.oamtReducingOamtTreatmentCompletion","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT: Reducing dose of OAMT for managed treatment completion","HIV - OAMT: Reducing dose of OAMT for managed treatment completion","","","","","","","","","",,,,,"",,,,"Visit.oamtReducingOamtTreatmentCompletion",0,1,"",""
+"Visit","Visit.oamtOamtFormulation","Visit.oamtOamtFormulation","","","",0,1,"","","","code {[]} {[]}
+","HIV - OAMT: OAMT formulation","HIV - OAMT: OAMT formulation","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVOAMTFormulationVS","",,,,"Visit.oamtOamtFormulation",0,1,"",""
+"Visit","Visit.oamtQuantityOfDailyDoseDispensedMg","Visit.oamtQuantityOfDailyDoseDispensedMg","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - OAMT: Quantity of daily dose dispensed (mg)","HIV - OAMT: Quantity of daily dose dispensed (mg)","","","","","","","","","",,,,,"",,,,"Visit.oamtQuantityOfDailyDoseDispensedMg",0,1,"",""
+"Visit","Visit.oamtMultipleDailyDoses","Visit.oamtMultipleDailyDoses","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT: Multiple daily doses","HIV - OAMT: Multiple daily doses","","","","","","","","","",,,,,"",,,,"Visit.oamtMultipleDailyDoses",0,1,"",""
+"Visit","Visit.oamtHowManyDailyDosesDispensed","Visit.oamtHowManyDailyDosesDispensed","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - OAMT: How many daily doses dispensed?","HIV - OAMT: How many daily doses dispensed?","","","","","","","","","",,,,,"",,,,"Visit.oamtHowManyDailyDosesDispensed",0,1,"",""
+"Visit","Visit.oamtRetainedOnOamtFromLastVisit","Visit.oamtRetainedOnOamtFromLastVisit","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - OAMT: Retained on OAMT from last visit","HIV - OAMT: Retained on OAMT from last visit","","","","","","","","","",,,,,"",,,,"Visit.oamtRetainedOnOamtFromLastVisit",0,1,"",""
+"Visit","Visit.oamtDaysSinceStartThatHasBeRetained","Visit.oamtDaysSinceStartThatHasBeRetained","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - OAMT: Days since start that has be retained","HIV - OAMT: Days since start that has be retained","","","","","","","","","",,,,,"",,,,"Visit.oamtDaysSinceStartThatHasBeRetained",0,1,"",""
+"Visit","Visit.oamtCumulativeDays","Visit.oamtCumulativeDays","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV - OAMT: Cumulative days","HIV - OAMT: Cumulative days","","","","","","","","","",,,,,"",,,,"Visit.oamtCumulativeDays",0,1,"",""
+"Visit","Visit.oamtLastDayWithOamt","Visit.oamtLastDayWithOamt","","","",0,1,"","","","date {[]} {[]}
+","HIV - OAMT: Last day with OAMT","HIV - OAMT: Last day with OAMT","","","","","","","","","",,,,,"",,,,"Visit.oamtLastDayWithOamt",0,1,"",""
+"Visit","Visit.vmmcVmmcPerformed","Visit.vmmcVmmcPerformed","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - VMMC: VMMC performed","HIV - VMMC: VMMC performed","","","","","","","","","",,,,,"",,,,"Visit.vmmcVmmcPerformed",0,1,"",""
+"Visit","Visit.vmmcDateOfVmmcPerformed","Visit.vmmcDateOfVmmcPerformed","","","",0,1,"","","","date {[]} {[]}
+","HIV - VMMC: Date of VMMC performed","HIV - VMMC: Date of VMMC performed","","","","","","","","","",,,,,"",,,,"Visit.vmmcDateOfVmmcPerformed",0,1,"",""
+"Visit","Visit.vmmcAdverseEventsExperienced","Visit.vmmcAdverseEventsExperienced","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - VMMC: Adverse events experienced","HIV - VMMC: Adverse events experienced","","","","","","","","","",,,,,"",,,,"Visit.vmmcAdverseEventsExperienced",0,1,"",""
+"Visit","Visit.vmmcTypeOfAdverseEvents1","Visit.vmmcTypeOfAdverseEvents1","","","",0,1,"","","","code {[]} {[]}
+","HIV - VMMC: Type of adverse events - 1","HIV - VMMC: Type of adverse events - 1","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVVMMCTypeOfAdverseEventsVS","",,,,"Visit.vmmcTypeOfAdverseEvents1",0,1,"",""
+"Visit","Visit.vmmcTypeOfAdverseEvents2","Visit.vmmcTypeOfAdverseEvents2","","","",0,1,"","","","code {[]} {[]}
+","HIV - VMMC: Type of adverse events - 2","HIV - VMMC: Type of adverse events - 2","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVVMMCTypeOfAdverseEventsVS","",,,,"Visit.vmmcTypeOfAdverseEvents2",0,1,"",""
+"Visit","Visit.vmmcTypeOfAdverseEvents3","Visit.vmmcTypeOfAdverseEvents3","","","",0,1,"","","","code {[]} {[]}
+","HIV - VMMC: Type of adverse events - 3","HIV - VMMC: Type of adverse events - 3","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVVMMCTypeOfAdverseEventsVS","",,,,"Visit.vmmcTypeOfAdverseEvents3",0,1,"",""
+"Visit","Visit.vmmcTypeOfAdverseEvents4","Visit.vmmcTypeOfAdverseEvents4","","","",0,1,"","","","code {[]} {[]}
+","HIV - VMMC: Type of adverse events - 4","HIV - VMMC: Type of adverse events - 4","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVVMMCTypeOfAdverseEventsVS","",,,,"Visit.vmmcTypeOfAdverseEvents4",0,1,"",""
+"Visit","Visit.vmmcSeverityOfAdverseEvents","Visit.vmmcSeverityOfAdverseEvents","","","",0,1,"","","","code {[]} {[]}
+","HIV - VMMC: Severity of adverse events","HIV - VMMC: Severity of adverse events","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVVMMCSeverityOfAdverseEventsVS","",,,,"Visit.vmmcSeverityOfAdverseEvents",0,1,"",""
+"Visit","Visit.vmmcTimingOfAdverseEvents","Visit.vmmcTimingOfAdverseEvents","","","",0,1,"","","","code {[]} {[]}
+","HIV - VMMC: Timing of adverse events","HIV - VMMC: Timing of adverse events","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVVMMCTimingOfAdverseEventsVS","",,,,"Visit.vmmcTimingOfAdverseEvents",0,1,"",""
+"Visit","Visit.stiSyndrome","Visit.stiSyndrome","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - STI: syndrome","HIV - STI: syndrome","","","","","","","","","",,,,,"",,,,"Visit.stiSyndrome",0,1,"",""
+"Visit","Visit.stiStiSyndromeDiagnosisDate","Visit.stiStiSyndromeDiagnosisDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: STI syndrome diagnosis date","HIV - STI: STI syndrome diagnosis date","","","","","","","","","",,,,,"",,,,"Visit.stiStiSyndromeDiagnosisDate",0,1,"",""
+"Visit","Visit.stiSyndromeDiagnosed1","Visit.stiSyndromeDiagnosed1","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI syndrome diagnosed - 1","HIV - STI syndrome diagnosed - 1","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVSTISyndromeAssignedVS","",,,,"Visit.stiSyndromeDiagnosed1",0,1,"",""
+"Visit","Visit.stiSyndromeDiagnosed2","Visit.stiSyndromeDiagnosed2","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI syndrome diagnosed - 2","HIV - STI syndrome diagnosed - 2","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVSTISyndromeAssignedVS","",,,,"Visit.stiSyndromeDiagnosed2",0,1,"",""
+"Visit","Visit.stiSyndromeDiagnosed3","Visit.stiSyndromeDiagnosed3","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI syndrome diagnosed - 3","HIV - STI syndrome diagnosed - 3","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVSTISyndromeAssignedVS","",,,,"Visit.stiSyndromeDiagnosed3",0,1,"",""
+"Visit","Visit.stiSyndromeDiagnosed4","Visit.stiSyndromeDiagnosed4","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI syndrome diagnosed - 4","HIV - STI syndrome diagnosed - 4","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVSTISyndromeAssignedVS","",,,,"Visit.stiSyndromeDiagnosed4",0,1,"",""
+"Visit","Visit.stiSyndromeDiagnosedOther","Visit.stiSyndromeDiagnosedOther","","","",0,1,"","","","string {[]} {[]}
+","HIV - STI syndrome diagnosed - Other","HIV - STI syndrome diagnosed - Other","","","","","","","","","",,,,,"",,,,"Visit.stiSyndromeDiagnosedOther",0,1,"",""
+"Visit","Visit.stiUrethralDischargeSyndromeLastDxDate","Visit.stiUrethralDischargeSyndromeLastDxDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: Urethral discharge syndrome last diagnosis date","HIV - STI: Urethral discharge syndrome last diagnosis date","","","","","","","","","",,,,,"",,,,"Visit.stiUrethralDischargeSyndromeLastDxDate",0,1,"",""
+"Visit","Visit.stiVaginalDischargeSyndromeLastDxDate","Visit.stiVaginalDischargeSyndromeLastDxDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: Vaginal discharge syndrome last diagnosis date","HIV - STI: Vaginal discharge syndrome last diagnosis date","","","","","","","","","",,,,,"",,,,"Visit.stiVaginalDischargeSyndromeLastDxDate",0,1,"",""
+"Visit","Visit.stiLowerAbdominalPainLastDxDate","Visit.stiLowerAbdominalPainLastDxDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: Lower abdominal pain last diagnosis date","HIV - STI: Lower abdominal pain last diagnosis date","","","","","","","","","",,,,,"",,,,"Visit.stiLowerAbdominalPainLastDxDate",0,1,"",""
+"Visit","Visit.stiGenitalUlcerDiseaseSyndromeLastDxDate","Visit.stiGenitalUlcerDiseaseSyndromeLastDxDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: Genital ulcer disease syndrome last diagnosis date","HIV - STI: Genital ulcer disease syndrome last diagnosis date","","","","","","","","","",,,,,"",,,,"Visit.stiGenitalUlcerDiseaseSyndromeLastDxDate",0,1,"",""
+"Visit","Visit.stiAnorectalDischargeLastDxDate","Visit.stiAnorectalDischargeLastDxDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: Anorectal discharge last diagnosis date","HIV - STI: Anorectal discharge last diagnosis date","","","","","","","","","",,,,,"",,,,"Visit.stiAnorectalDischargeLastDxDate",0,1,"",""
+"Visit","Visit.stiTested","Visit.stiTested","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - STI: tested","HIV - STI: tested","","","","","","","","","",,,,,"",,,,"Visit.stiTested",0,1,"",""
+"Visit","Visit.stiTested1","Visit.stiTested1","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI: tested - 1","HIV - STI: tested - 1","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVListStisVS","",,,,"Visit.stiTested1",0,1,"",""
+"Visit","Visit.stiTested2","Visit.stiTested2","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI: tested - 2","HIV - STI: tested - 2","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVListStisVS","",,,,"Visit.stiTested2",0,1,"",""
+"Visit","Visit.stiTested3","Visit.stiTested3","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI: tested - 3","HIV - STI: tested - 3","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVListStisVS","",,,,"Visit.stiTested3",0,1,"",""
+"Visit","Visit.stiSyphilisTestDate","Visit.stiSyphilisTestDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: Syphilis - test date","HIV - STI: Syphilis - test date","","","","","","","","","",,,,,"",,,,"Visit.stiSyphilisTestDate",0,1,"",""
+"Visit","Visit.stiSyphilisTestResult","Visit.stiSyphilisTestResult","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI: Syphilis - test result","HIV - STI: Syphilis - test result","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVTestResultVS","",,,,"Visit.stiSyphilisTestResult",0,1,"",""
+"Visit","Visit.stiSyphilisTreatmentAdministered","Visit.stiSyphilisTreatmentAdministered","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - STI: Syphilis - treatment administered","HIV - STI: Syphilis - treatment administered","","","","","","","","","",,,,,"",,,,"Visit.stiSyphilisTreatmentAdministered",0,1,"",""
+"Visit","Visit.stiGonorrhoeaTestDate","Visit.stiGonorrhoeaTestDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: Gonorrhoea - test date","HIV - STI: Gonorrhoea - test date","","","","","","","","","",,,,,"",,,,"Visit.stiGonorrhoeaTestDate",0,1,"",""
+"Visit","Visit.stiGonorrhoeaTestResult","Visit.stiGonorrhoeaTestResult","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI: Gonorrhoea - test result","HIV - STI: Gonorrhoea - test result","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVTestResultVS","",,,,"Visit.stiGonorrhoeaTestResult",0,1,"",""
+"Visit","Visit.stiGonorrhoeaTreatmentAdministered","Visit.stiGonorrhoeaTreatmentAdministered","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - STI: Gonorrhoea - treatment administered","HIV - STI: Gonorrhoea - treatment administered","","","","","","","","","",,,,,"",,,,"Visit.stiGonorrhoeaTreatmentAdministered",0,1,"",""
+"Visit","Visit.stiChlamydiaTestDate","Visit.stiChlamydiaTestDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - STI: Chlamydia - test date","HIV - STI: Chlamydia - test date","","","","","","","","","",,,,,"",,,,"Visit.stiChlamydiaTestDate",0,1,"",""
+"Visit","Visit.stiChlamydiaTestResult","Visit.stiChlamydiaTestResult","","","",0,1,"","","","code {[]} {[]}
+","HIV - STI: Chlamydia - test result","HIV - STI: Chlamydia - test result","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVTestResultVS","",,,,"Visit.stiChlamydiaTestResult",0,1,"",""
+"Visit","Visit.stiChlamydiaTreatmentAdministered","Visit.stiChlamydiaTreatmentAdministered","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - STI: Chlamydia - treatment administered","HIV - STI: Chlamydia - treatment administered","","","","","","","","","",,,,,"",,,,"Visit.stiChlamydiaTreatmentAdministered",0,1,"",""
+"Visit","Visit.viralHepatitisHbsagTestPerformed","Visit.viralHepatitisHbsagTestPerformed","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Viral Hepatitis: HBsAg test performed","HIV - Viral Hepatitis: HBsAg test performed","","","","","","","","","",,,,,"",,,,"Visit.viralHepatitisHbsagTestPerformed",0,1,"",""
+"Visit","Visit.viralHepatitisHbsagTestDate","Visit.viralHepatitisHbsagTestDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - Viral Hepatitis: HBsAg test date","HIV - Viral Hepatitis: HBsAg test date","","","","","","","","","",,,,,"",,,,"Visit.viralHepatitisHbsagTestDate",0,1,"",""
+"Visit","Visit.viralHepatitisHbsagTestResult","Visit.viralHepatitisHbsagTestResult","","","",0,1,"","","","code {[]} {[]}
+","HIV - Viral Hepatitis: HBsAg test result","HIV - Viral Hepatitis: HBsAg test result","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVViralHepatitisTestResultVS","",,,,"Visit.viralHepatitisHbsagTestResult",0,1,"",""
+"Visit","Visit.viralHepatitisHcvTestPerformed","Visit.viralHepatitisHcvTestPerformed","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Viral Hepatitis: HCV test performed","HIV - Viral Hepatitis: HCV test performed","","","","","","","","","",,,,,"",,,,"Visit.viralHepatitisHcvTestPerformed",0,1,"",""
+"Visit","Visit.viralHepatitisHcvTestType","Visit.viralHepatitisHcvTestType","","","",0,1,"","","","code {[]} {[]}
+","HIV - Viral Hepatitis: HCV test type","HIV - Viral Hepatitis: HCV test type","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVHCVTestTypeVS","",,,,"Visit.viralHepatitisHcvTestType",0,1,"",""
+"Visit","Visit.viralHepatitisHcvTestDate","Visit.viralHepatitisHcvTestDate","","","",0,1,"","","","date {[]} {[]}
+","HIV - Viral Hepatitis: HCV test date","HIV - Viral Hepatitis: HCV test date","","","","","","","","","",,,,,"",,,,"Visit.viralHepatitisHcvTestDate",0,1,"",""
+"Visit","Visit.viralHepatitisHcvTestResult","Visit.viralHepatitisHcvTestResult","","","",0,1,"","","","code {[]} {[]}
+","HIV - Viral Hepatitis: HCV test result","HIV - Viral Hepatitis: HCV test result","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVViralHepatitisTestResultVS","",,,,"Visit.viralHepatitisHcvTestResult",0,1,"",""

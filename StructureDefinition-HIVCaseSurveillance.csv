@@ -1,0 +1,35 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"HIVCaseSurveillance","HIVCaseSurveillance","","","",0,*,"","","","null {[]} {[]}
+","HIV - Case Surveillance","HIV - Case Surveillance","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"HIVCaseSurveillance.hivProgram","HIVCaseSurveillance.hivProgram","","","",0,1,"","","","string {[]} {[]}
+","HIV Program ID (For example, ART Number)","HIV Program ID (For example, ART Number)","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.hivProgram",0,1,"",""
+"HIVCaseSurveillance.familyName","HIVCaseSurveillance.familyName","","","",0,1,"","","","string {[]} {[]}
+","Family name or last name of the patient of case.","Family name or last name of the patient of case.","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.familyName",0,1,"",""
+"HIVCaseSurveillance.givenName","HIVCaseSurveillance.givenName","","","",0,1,"","","","string {[]} {[]}
+","First name","First name","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.givenName",0,1,"",""
+"HIVCaseSurveillance.sexAssignedAtBirth","HIVCaseSurveillance.sexAssignedAtBirth","","","",0,1,"","","","code {[]} {[]}
+","Sex assigned at birth","Sex assigned at birth","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVSexAtBirthVS","",,,,"HIVCaseSurveillance.sexAssignedAtBirth",0,1,"",""
+"HIVCaseSurveillance.gender","HIVCaseSurveillance.gender","","","",0,1,"","","","code {[]} {[]}
+","Gender","Gender","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVGenderVS","",,,,"HIVCaseSurveillance.gender",0,1,"",""
+"HIVCaseSurveillance.dateOfBirth","HIVCaseSurveillance.dateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.dateOfBirth",0,1,"",""
+"HIVCaseSurveillance.dateOfBirthUnknown","HIVCaseSurveillance.dateOfBirthUnknown","","","",0,1,"","","","boolean {[]} {[]}
+","Is the client's DOB is unknown?","Is the client's DOB is unknown?","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.dateOfBirthUnknown",0,1,"",""
+"HIVCaseSurveillance.ageYears","HIVCaseSurveillance.ageYears","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV.A.DE16","HIV.A.DE16","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.ageYears",0,1,"",""
+"HIVCaseSurveillance.ageMonths","HIVCaseSurveillance.ageMonths","","","",0,1,"","","","unsignedInt {[]} {[]}
+","HIV.A.DE16","HIV.A.DE16","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.ageMonths",0,1,"",""
+"HIVCaseSurveillance.countryOfBirth","HIVCaseSurveillance.countryOfBirth","","","",0,1,"","","","code {[]} {[]}
+","Country where the client was born","Country where the client was born","","","","","","","","","",,"required","","http://example.org/ValueSet/GENCountriesVS","",,,,"HIVCaseSurveillance.countryOfBirth",0,1,"",""
+"HIVCaseSurveillance.addressCurrent","HIVCaseSurveillance.addressCurrent","","","",0,1,"","","","string {[]} {[]}
+","HIV.A.DE29","HIV.A.DE29","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.addressCurrent",0,1,"",""
+"HIVCaseSurveillance.phoneNumber","HIVCaseSurveillance.phoneNumber","","","",0,1,"","","","string {[]} {[]}
+","HIV.A.DE42","HIV.A.DE42","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.phoneNumber",0,1,"",""
+"HIVCaseSurveillance.nationalId","HIVCaseSurveillance.nationalId","","","",0,1,"","","","string {[]} {[]}
+","Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.","Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.nationalId",0,1,"",""
+"HIVCaseSurveillance.initialCaseReport","HIVCaseSurveillance.initialCaseReport","","","",0,1,"","","","http://example.org/StructureDefinition/InitialCaseReport {[]} {[]}
+","Initial Case Report","Initial Case Report","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.initialCaseReport",0,1,"",""
+"HIVCaseSurveillance.visit","HIVCaseSurveillance.visit","","","",0,*,"","","","http://example.org/StructureDefinition/Visit {[]} {[]}
+","Visit","Visit","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.visit",0,*,"",""
+"HIVCaseSurveillance.followUp","HIVCaseSurveillance.followUp","","","",0,*,"","","","http://example.org/StructureDefinition/FollowUp {[]} {[]}
+","Used when there is a need to contact the client","Used when there is a need to contact the client","","","","","","","","","",,,,,"",,,,"HIVCaseSurveillance.followUp",0,*,"",""

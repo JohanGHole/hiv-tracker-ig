@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVReasonForFollowUpCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem HIVReasonForFollowUpCS</b></p><a name="HIVReasonForFollowUpCS"> </a><a name="hcHIVReasonForFollowUpCS"> </a><a name="HIVReasonForFollowUpCS-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVReasonForFollowUpCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">MISSED_CLINICAL_VISIT<a name="HIVReasonForFollowUpCS-MISSED_CLINICAL_VISIT"> </a></td><td>Missed clinical care visit</td></tr><tr><td style="white-space:nowrap">MISSED_ARV_PICKUP<a name="HIVReasonForFollowUpCS-MISSED_ARV_PICKUP"> </a></td><td>Missed medication pickup</td></tr><tr><td style="white-space:nowrap">MISSED_VISIT_NONCLINICAL<a name="HIVReasonForFollowUpCS-MISSED_VISIT_NONCLINICAL"> </a></td><td>Missed non-clinical visit</td></tr><tr><td style="white-space:nowrap">ART_NOT_STARTED<a name="HIVReasonForFollowUpCS-ART_NOT_STARTED"> </a></td><td>Did not initiate ART</td></tr><tr><td style="white-space:nowrap">HIV_INCONCLUSIVE<a name="HIVReasonForFollowUpCS-HIV_INCONCLUSIVE"> </a></td><td>Inconclusive HIV status</td></tr><tr><td style="white-space:nowrap">TEST_RESULTS<a name="HIVReasonForFollowUpCS-TEST_RESULTS"> </a></td><td>Test results received</td></tr><tr><td style="white-space:nowrap">OTHER_REASON<a name="HIVReasonForFollowUpCS-OTHER_REASON"> </a></td><td>Other follow up reason (Specify)</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HIVReasonForFollowUpCS"/>
+  <version value="0.1.0"/>
+  <name value="HIVReasonForFollowUpCS"/>
+  <title value="HIV - Reason for Follow up"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-05-07T10:57:06+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="MISSED_CLINICAL_VISIT"/>
+    <display value="Missed clinical care visit"/>
+  </concept>
+  <concept>
+    <code value="MISSED_ARV_PICKUP"/>
+    <display value="Missed medication pickup"/>
+  </concept>
+  <concept>
+    <code value="MISSED_VISIT_NONCLINICAL"/>
+    <display value="Missed non-clinical visit"/>
+  </concept>
+  <concept>
+    <code value="ART_NOT_STARTED"/>
+    <display value="Did not initiate ART"/>
+  </concept>
+  <concept>
+    <code value="HIV_INCONCLUSIVE"/>
+    <display value="Inconclusive HIV status"/>
+  </concept>
+  <concept>
+    <code value="TEST_RESULTS"/>
+    <display value="Test results received"/>
+  </concept>
+  <concept>
+    <code value="OTHER_REASON"/>
+    <display value="Other follow up reason (Specify)"/>
+  </concept>
+</CodeSystem>

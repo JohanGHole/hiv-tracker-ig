@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVTPTRegimenCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem HIVTPTRegimenCS</b></p><a name="HIVTPTRegimenCS"> </a><a name="hcHIVTPTRegimenCS"> </a><a name="HIVTPTRegimenCS-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVTPTRegimenCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1HP<a name="HIVTPTRegimenCS-1HP"> </a></td><td>1HP (one month of daily rifapentine plus isoniazid)</td></tr><tr><td style="white-space:nowrap">3HP<a name="HIVTPTRegimenCS-3HP"> </a></td><td>3HP (three months of weekly rifapentine plus isoniazid)</td></tr><tr><td style="white-space:nowrap">3RH<a name="HIVTPTRegimenCS-3RH"> </a></td><td>3RH (three months of daily rifampicin plus isoniazid)</td></tr><tr><td style="white-space:nowrap">6H<a name="HIVTPTRegimenCS-6H"> </a></td><td>6H (six months of daily isoniazid monotherapy)</td></tr><tr><td style="white-space:nowrap">SIX_MONTHS_LEFOFLOXACIN_DAILY<a name="HIVTPTRegimenCS-SIX_MONTHS_LEFOFLOXACIN_DAILY"> </a></td><td>Six months of levofloxacin daily</td></tr><tr><td style="white-space:nowrap">4R<a name="HIVTPTRegimenCS-4R"> </a></td><td>4R (four months of daily rifampicin monotherapy)</td></tr><tr><td style="white-space:nowrap">OTHERTPT<a name="HIVTPTRegimenCS-OTHERTPT"> </a></td><td>Other TB preventive treatment (TPT) regimen</td></tr><tr><td style="white-space:nowrap">INH-B6<a name="HIVTPTRegimenCS-INH-B6"> </a></td><td>Combination INH-B6-Cotrim (for the duration of INH specified)</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HIVTPTRegimenCS"/>
+  <version value="0.1.0"/>
+  <name value="HIVTPTRegimenCS"/>
+  <title value="HIV - TPT Regimen"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-05-07T10:57:06+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="1HP"/>
+    <display value="1HP (one month of daily rifapentine plus isoniazid)"/>
+  </concept>
+  <concept>
+    <code value="3HP"/>
+    <display value="3HP (three months of weekly rifapentine plus isoniazid)"/>
+  </concept>
+  <concept>
+    <code value="3RH"/>
+    <display value="3RH (three months of daily rifampicin plus isoniazid)"/>
+  </concept>
+  <concept>
+    <code value="6H"/>
+    <display value="6H (six months of daily isoniazid monotherapy)"/>
+  </concept>
+  <concept>
+    <code value="SIX_MONTHS_LEFOFLOXACIN_DAILY"/>
+    <display value="Six months of levofloxacin daily"/>
+  </concept>
+  <concept>
+    <code value="4R"/>
+    <display value="4R (four months of daily rifampicin monotherapy)"/>
+  </concept>
+  <concept>
+    <code value="OTHERTPT"/>
+    <display value="Other TB preventive treatment (TPT) regimen"/>
+  </concept>
+  <concept>
+    <code value="INH-B6"/>
+    <display value="Combination INH-B6-Cotrim (for the duration of INH specified)"/>
+  </concept>
+</CodeSystem>

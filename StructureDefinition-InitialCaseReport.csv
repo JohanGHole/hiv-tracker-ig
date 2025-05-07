@@ -1,0 +1,15 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"InitialCaseReport","InitialCaseReport","","","",0,*,"","","","null {[]} {[]}
+","Initial case report","Initial case report","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"InitialCaseReport.keyPopulationMember","InitialCaseReport.keyPopulationMember","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Any","HIV - Key population - Any","","","","","","","","","",,,,,"",,,,"InitialCaseReport.keyPopulationMember",0,1,"",""
+"InitialCaseReport.personWhoInjectDrugss","InitialCaseReport.personWhoInjectDrugss","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Person who inject drugs","HIV - Key population - Person who inject drugs","","","","","","","","","",,,,,"",,,,"InitialCaseReport.personWhoInjectDrugss",0,1,"",""
+"InitialCaseReport.msm","InitialCaseReport.msm","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Men who have sex with men","HIV - Key population - Men who have sex with men","","","","","","","","","",,,,,"",,,,"InitialCaseReport.msm",0,1,"",""
+"InitialCaseReport.peopleLivingInPrisonsAndOtherClosedSetting","InitialCaseReport.peopleLivingInPrisonsAndOtherClosedSetting","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - People living in prisons and other closed settings","HIV - Key population - People living in prisons and other closed settings","","","","","","","","","",,,,,"",,,,"InitialCaseReport.peopleLivingInPrisonsAndOtherClosedSetting",0,1,"",""
+"InitialCaseReport.sexWorker","InitialCaseReport.sexWorker","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Sex worker","HIV - Key population - Sex worker","","","","","","","","","",,,,,"",,,,"InitialCaseReport.sexWorker",0,1,"",""
+"InitialCaseReport.transAndGenderDiversePeople","InitialCaseReport.transAndGenderDiversePeople","","","",0,1,"","","","boolean {[]} {[]}
+","HIV - Key population - Trans and gender-diverse people","HIV - Key population - Trans and gender-diverse people","","","","","","","","","",,,,,"",,,,"InitialCaseReport.transAndGenderDiversePeople",0,1,"",""

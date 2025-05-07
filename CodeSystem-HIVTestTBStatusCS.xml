@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVTestTBStatusCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem HIVTestTBStatusCS</b></p><a name="HIVTestTBStatusCS"> </a><a name="hcHIVTestTBStatusCS"> </a><a name="HIVTestTBStatusCS-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVTestTBStatusCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">SYMPTOMATIC_TB<a name="HIVTestTBStatusCS-SYMPTOMATIC_TB"> </a></td><td>Symptomatic for TB</td></tr><tr><td style="white-space:nowrap">DIAGNOSED_TB<a name="HIVTestTBStatusCS-DIAGNOSED_TB"> </a></td><td>Diagnosed TB</td></tr><tr><td style="white-space:nowrap">NONE<a name="HIVTestTBStatusCS-NONE"> </a></td><td>None</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HIVTestTBStatusCS"/>
+  <version value="0.1.0"/>
+  <name value="HIVTestTBStatusCS"/>
+  <title value="HIV - Test: TB status"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-05-07T10:57:06+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="SYMPTOMATIC_TB"/>
+    <display value="Symptomatic for TB"/>
+  </concept>
+  <concept>
+    <code value="DIAGNOSED_TB"/>
+    <display value="Diagnosed TB"/>
+  </concept>
+  <concept>
+    <code value="NONE"/>
+    <display value="None"/>
+  </concept>
+</CodeSystem>

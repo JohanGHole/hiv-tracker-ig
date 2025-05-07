@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/HIVARTStopReasonsCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "HIVARTStopReasonsCS"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVARTStopReasonsCS</b></p><a name=\"HIVARTStopReasonsCS\"> </a><a name=\"hcHIVARTStopReasonsCS\"> </a><a name=\"HIVARTStopReasonsCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVARTStopReasonsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">TOXICITY_SIDE_EFFECTS<a name=\"HIVARTStopReasonsCS-TOXICITY_SIDE_EFFECTS\"> </a></td><td>Toxicity/side effects</td></tr><tr><td style=\"white-space:nowrap\">SEVERE_ILLNESS_HOSPITALIZATION<a name=\"HIVARTStopReasonsCS-SEVERE_ILLNESS_HOSPITALIZATION\"> </a></td><td>Severe illness (hospitalization)</td></tr><tr><td style=\"white-space:nowrap\">DRUGS_OUT_OF_STOCK<a name=\"HIVARTStopReasonsCS-DRUGS_OUT_OF_STOCK\"> </a></td><td>Drugs out of stock</td></tr><tr><td style=\"white-space:nowrap\">LACKS_FINANCES<a name=\"HIVARTStopReasonsCS-LACKS_FINANCES\"> </a></td><td>Lacks finances</td></tr><tr><td style=\"white-space:nowrap\">EXCLUDED_HIV_INFECTION_IN_INFANT<a name=\"HIVARTStopReasonsCS-EXCLUDED_HIV_INFECTION_IN_INFANT\"> </a></td><td>Excluded HIV infection in infant</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"HIVARTStopReasonsCS-OTHER\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/HIVARTStopReasonsCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "HIVARTStopReasonsCS"] ; # 
+  fhir:title [ fhir:v "HIV - ART stop reasons"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-05-07T10:57:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "TOXICITY_SIDE_EFFECTS" ] ;
+     fhir:display [ fhir:v "Toxicity/side effects" ]
+  ] [
+     fhir:code [ fhir:v "SEVERE_ILLNESS_HOSPITALIZATION" ] ;
+     fhir:display [ fhir:v "Severe illness (hospitalization)" ]
+  ] [
+     fhir:code [ fhir:v "DRUGS_OUT_OF_STOCK" ] ;
+     fhir:display [ fhir:v "Drugs out of stock" ]
+  ] [
+     fhir:code [ fhir:v "LACKS_FINANCES" ] ;
+     fhir:display [ fhir:v "Lacks finances" ]
+  ] [
+     fhir:code [ fhir:v "EXCLUDED_HIV_INFECTION_IN_INFANT" ] ;
+     fhir:display [ fhir:v "Excluded HIV infection in infant" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

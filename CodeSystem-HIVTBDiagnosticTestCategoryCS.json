@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "HIVTBDiagnosticTestCategoryCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVTBDiagnosticTestCategoryCS</b></p><a name=\"HIVTBDiagnosticTestCategoryCS\"> </a><a name=\"hcHIVTBDiagnosticTestCategoryCS\"> </a><a name=\"HIVTBDiagnosticTestCategoryCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVTBDiagnosticTestCategoryCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LF_LAM<a name=\"HIVTBDiagnosticTestCategoryCS-LF_LAM\"> </a></td><td>LF-LAM</td></tr><tr><td style=\"white-space:nowrap\">MWRD_TEST_TB<a name=\"HIVTBDiagnosticTestCategoryCS-MWRD_TEST_TB\"> </a></td><td>mWRD test for TB</td></tr><tr><td style=\"white-space:nowrap\">MICROSCOPY_AFB<a name=\"HIVTBDiagnosticTestCategoryCS-MICROSCOPY_AFB\"> </a></td><td>Microscopy - Sputum acid-fast bacilli</td></tr><tr><td style=\"white-space:nowrap\">TB_CULTURE<a name=\"HIVTBDiagnosticTestCategoryCS-TB_CULTURE\"> </a></td><td>TB culture</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/HIVTBDiagnosticTestCategoryCS",
+  "version" : "0.1.0",
+  "name" : "HIVTBDiagnosticTestCategoryCS",
+  "title" : "HIV - TB diagnostic test category",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-05-07T10:57:06+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "LF_LAM",
+    "display" : "LF-LAM"
+  },
+  {
+    "code" : "MWRD_TEST_TB",
+    "display" : "mWRD test for TB"
+  },
+  {
+    "code" : "MICROSCOPY_AFB",
+    "display" : "Microscopy - Sputum acid-fast bacilli"
+  },
+  {
+    "code" : "TB_CULTURE",
+    "display" : "TB culture"
+  }]
+}

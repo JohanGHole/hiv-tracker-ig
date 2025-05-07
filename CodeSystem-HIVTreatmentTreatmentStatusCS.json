@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "HIVTreatmentTreatmentStatusCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVTreatmentTreatmentStatusCS</b></p><a name=\"HIVTreatmentTreatmentStatusCS\"> </a><a name=\"hcHIVTreatmentTreatmentStatusCS\"> </a><a name=\"HIVTreatmentTreatmentStatusCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVTreatmentTreatmentStatusCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">INITIATION_NEW<a name=\"HIVTreatmentTreatmentStatusCS-INITIATION_NEW\"> </a></td><td>Initiation (new)</td></tr><tr><td style=\"white-space:nowrap\">INITIATION_OLD<a name=\"HIVTreatmentTreatmentStatusCS-INITIATION_OLD\"> </a></td><td>Initiation (after stopping)</td></tr><tr><td style=\"white-space:nowrap\">ON_ART<a name=\"HIVTreatmentTreatmentStatusCS-ON_ART\"> </a></td><td>On ART</td></tr><tr><td style=\"white-space:nowrap\">REFUSED_TREATMENT<a name=\"HIVTreatmentTreatmentStatusCS-REFUSED_TREATMENT\"> </a></td><td>Refused treatment</td></tr><tr><td style=\"white-space:nowrap\">STOPPED_TREATMENT<a name=\"HIVTreatmentTreatmentStatusCS-STOPPED_TREATMENT\"> </a></td><td>Stopped treatment</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/HIVTreatmentTreatmentStatusCS",
+  "version" : "0.1.0",
+  "name" : "HIVTreatmentTreatmentStatusCS",
+  "title" : "HIV - Treatment: Treatment Status",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-05-07T10:57:06+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "INITIATION_NEW",
+    "display" : "Initiation (new)"
+  },
+  {
+    "code" : "INITIATION_OLD",
+    "display" : "Initiation (after stopping)"
+  },
+  {
+    "code" : "ON_ART",
+    "display" : "On ART"
+  },
+  {
+    "code" : "REFUSED_TREATMENT",
+    "display" : "Refused treatment"
+  },
+  {
+    "code" : "STOPPED_TREATMENT",
+    "display" : "Stopped treatment"
+  }]
+}

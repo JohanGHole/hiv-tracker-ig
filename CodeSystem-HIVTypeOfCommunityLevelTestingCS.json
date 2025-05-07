@@ -1,0 +1,42 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "HIVTypeOfCommunityLevelTestingCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVTypeOfCommunityLevelTestingCS</b></p><a name=\"HIVTypeOfCommunityLevelTestingCS\"> </a><a name=\"hcHIVTypeOfCommunityLevelTestingCS\"> </a><a name=\"HIVTypeOfCommunityLevelTestingCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVTypeOfCommunityLevelTestingCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MOBILE<a name=\"HIVTypeOfCommunityLevelTestingCS-MOBILE\"> </a></td><td>Mobile testing (e.g. through vans or temporary testing facilities)</td></tr><tr><td style=\"white-space:nowrap\">VOLUNTARYCTC<a name=\"HIVTypeOfCommunityLevelTestingCS-VOLUNTARYCTC\"> </a></td><td>Voluntary Counselling and Testing centres (not within a health facility setting)</td></tr><tr><td style=\"white-space:nowrap\">OTHERCOMMUNITY<a name=\"HIVTypeOfCommunityLevelTestingCS-OTHERCOMMUNITY\"> </a></td><td>Other community based testing</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/HIVTypeOfCommunityLevelTestingCS",
+  "version" : "0.1.0",
+  "name" : "HIVTypeOfCommunityLevelTestingCS",
+  "title" : "HIV - Type of community level testing",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-05-07T10:57:06+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "MOBILE",
+    "display" : "Mobile testing (e.g. through vans or temporary testing facilities)"
+  },
+  {
+    "code" : "VOLUNTARYCTC",
+    "display" : "Voluntary Counselling and Testing centres (not within a health facility setting)"
+  },
+  {
+    "code" : "OTHERCOMMUNITY",
+    "display" : "Other community based testing"
+  }]
+}

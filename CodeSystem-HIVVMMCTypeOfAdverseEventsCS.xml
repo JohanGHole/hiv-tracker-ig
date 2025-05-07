@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVVMMCTypeOfAdverseEventsCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem HIVVMMCTypeOfAdverseEventsCS</b></p><a name="HIVVMMCTypeOfAdverseEventsCS"> </a><a name="hcHIVVMMCTypeOfAdverseEventsCS"> </a><a name="HIVVMMCTypeOfAdverseEventsCS-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVVMMCTypeOfAdverseEventsCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ABNORMAL_PAIN<a name="HIVVMMCTypeOfAdverseEventsCS-ABNORMAL_PAIN"> </a></td><td>Abnormal pain</td></tr><tr><td style="white-space:nowrap">ANAESTHESIA_RELATED_EFFECTS<a name="HIVVMMCTypeOfAdverseEventsCS-ANAESTHESIA_RELATED_EFFECTS"> </a></td><td>Anaesthesia-related effects</td></tr><tr><td style="white-space:nowrap">BLEEDING<a name="HIVVMMCTypeOfAdverseEventsCS-BLEEDING"> </a></td><td>Bleeding</td></tr><tr><td style="white-space:nowrap">DAMAGE_PENIS<a name="HIVVMMCTypeOfAdverseEventsCS-DAMAGE_PENIS"> </a></td><td>Damage to the penis</td></tr><tr><td style="white-space:nowrap">DIFFICULTY_URINATING<a name="HIVVMMCTypeOfAdverseEventsCS-DIFFICULTY_URINATING"> </a></td><td>Difficulty urinating</td></tr><tr><td style="white-space:nowrap">EXCESSIVE_BLEEDING<a name="HIVVMMCTypeOfAdverseEventsCS-EXCESSIVE_BLEEDING"> </a></td><td>Excessive bleeding</td></tr><tr><td style="white-space:nowrap">EXCESSIVE_SKIN_REMOVAL<a name="HIVVMMCTypeOfAdverseEventsCS-EXCESSIVE_SKIN_REMOVAL"> </a></td><td>Excessive skin removal</td></tr><tr><td style="white-space:nowrap">EXCESSIVE_SWELLING<a name="HIVVMMCTypeOfAdverseEventsCS-EXCESSIVE_SWELLING"> </a></td><td>Excessive swelling</td></tr><tr><td style="white-space:nowrap">HAEMATOMA<a name="HIVVMMCTypeOfAdverseEventsCS-HAEMATOMA"> </a></td><td>Haematoma</td></tr><tr><td style="white-space:nowrap">INFECTION<a name="HIVVMMCTypeOfAdverseEventsCS-INFECTION"> </a></td><td>Infection</td></tr><tr><td style="white-space:nowrap">INJURY_GLANS<a name="HIVVMMCTypeOfAdverseEventsCS-INJURY_GLANS"> </a></td><td>Injury to glans</td></tr><tr><td style="white-space:nowrap">SCAR_DISFIGUREMENT<a name="HIVVMMCTypeOfAdverseEventsCS-SCAR_DISFIGUREMENT"> </a></td><td>Scar or disfigurement</td></tr><tr><td style="white-space:nowrap">SHARPS_INJURY_PERSONNEL<a name="HIVVMMCTypeOfAdverseEventsCS-SHARPS_INJURY_PERSONNEL"> </a></td><td>Sharps injury to personnel</td></tr><tr><td style="white-space:nowrap">WOUND_DISRUPTION<a name="HIVVMMCTypeOfAdverseEventsCS-WOUND_DISRUPTION"> </a></td><td>Wound disruption</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HIVVMMCTypeOfAdverseEventsCS"/>
+  <version value="0.1.0"/>
+  <name value="HIVVMMCTypeOfAdverseEventsCS"/>
+  <title value="HIV - VMMC: Type of adverse events"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-05-07T10:57:06+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="14"/>
+  <concept>
+    <code value="ABNORMAL_PAIN"/>
+    <display value="Abnormal pain"/>
+  </concept>
+  <concept>
+    <code value="ANAESTHESIA_RELATED_EFFECTS"/>
+    <display value="Anaesthesia-related effects"/>
+  </concept>
+  <concept>
+    <code value="BLEEDING"/>
+    <display value="Bleeding"/>
+  </concept>
+  <concept>
+    <code value="DAMAGE_PENIS"/>
+    <display value="Damage to the penis"/>
+  </concept>
+  <concept>
+    <code value="DIFFICULTY_URINATING"/>
+    <display value="Difficulty urinating"/>
+  </concept>
+  <concept>
+    <code value="EXCESSIVE_BLEEDING"/>
+    <display value="Excessive bleeding"/>
+  </concept>
+  <concept>
+    <code value="EXCESSIVE_SKIN_REMOVAL"/>
+    <display value="Excessive skin removal"/>
+  </concept>
+  <concept>
+    <code value="EXCESSIVE_SWELLING"/>
+    <display value="Excessive swelling"/>
+  </concept>
+  <concept>
+    <code value="HAEMATOMA"/>
+    <display value="Haematoma"/>
+  </concept>
+  <concept>
+    <code value="INFECTION"/>
+    <display value="Infection"/>
+  </concept>
+  <concept>
+    <code value="INJURY_GLANS"/>
+    <display value="Injury to glans"/>
+  </concept>
+  <concept>
+    <code value="SCAR_DISFIGUREMENT"/>
+    <display value="Scar or disfigurement"/>
+  </concept>
+  <concept>
+    <code value="SHARPS_INJURY_PERSONNEL"/>
+    <display value="Sharps injury to personnel"/>
+  </concept>
+  <concept>
+    <code value="WOUND_DISRUPTION"/>
+    <display value="Wound disruption"/>
+  </concept>
+</CodeSystem>

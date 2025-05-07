@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "HIVHPVDosesReceivedCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVHPVDosesReceivedCS</b></p><a name=\"HIVHPVDosesReceivedCS\"> </a><a name=\"hcHIVHPVDosesReceivedCS\"> </a><a name=\"HIVHPVDosesReceivedCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVHPVDosesReceivedCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"HIVHPVDosesReceivedCS-0\"> </a></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"HIVHPVDosesReceivedCS-1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"HIVHPVDosesReceivedCS-2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"HIVHPVDosesReceivedCS-3\"> </a></td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/HIVHPVDosesReceivedCS",
+  "version" : "0.1.0",
+  "name" : "HIVHPVDosesReceivedCS",
+  "title" : "HIV - HPV doses received",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-05-07T10:57:06+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "0",
+    "display" : "0"
+  },
+  {
+    "code" : "1",
+    "display" : "1"
+  },
+  {
+    "code" : "2",
+    "display" : "2"
+  },
+  {
+    "code" : "3",
+    "display" : "3"
+  }]
+}

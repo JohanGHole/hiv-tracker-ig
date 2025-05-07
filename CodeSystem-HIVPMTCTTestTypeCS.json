@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "HIVPMTCTTestTypeCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVPMTCTTestTypeCS</b></p><a name=\"HIVPMTCTTestTypeCS\"> </a><a name=\"hcHIVPMTCTTestTypeCS\"> </a><a name=\"HIVPMTCTTestTypeCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVPMTCTTestTypeCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RDT_HIV<a name=\"HIVPMTCTTestTypeCS-RDT_HIV\"> </a></td><td>Rapid diagnostic test for HIV</td></tr><tr><td style=\"white-space:nowrap\">ENZYME_IMMUNOASSAY<a name=\"HIVPMTCTTestTypeCS-ENZYME_IMMUNOASSAY\"> </a></td><td>Enzyme immunoassay for HIV</td></tr><tr><td style=\"white-space:nowrap\">NAT_HIV<a name=\"HIVPMTCTTestTypeCS-NAT_HIV\"> </a></td><td>Nucleic acid test for HIV</td></tr><tr><td style=\"white-space:nowrap\">RDT_HIV_SYPHILIS<a name=\"HIVPMTCTTestTypeCS-RDT_HIV_SYPHILIS\"> </a></td><td>Dual HIV/syphilis rapid diagnostic test</td></tr><tr><td style=\"white-space:nowrap\">HIV_SELF_TEST<a name=\"HIVPMTCTTestTypeCS-HIV_SELF_TEST\"> </a></td><td>HIV self-test</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/HIVPMTCTTestTypeCS",
+  "version" : "0.1.0",
+  "name" : "HIVPMTCTTestTypeCS",
+  "title" : "HIV - PMTCT test type",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-05-07T10:57:06+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "RDT_HIV",
+    "display" : "Rapid diagnostic test for HIV"
+  },
+  {
+    "code" : "ENZYME_IMMUNOASSAY",
+    "display" : "Enzyme immunoassay for HIV"
+  },
+  {
+    "code" : "NAT_HIV",
+    "display" : "Nucleic acid test for HIV"
+  },
+  {
+    "code" : "RDT_HIV_SYPHILIS",
+    "display" : "Dual HIV/syphilis rapid diagnostic test"
+  },
+  {
+    "code" : "HIV_SELF_TEST",
+    "display" : "HIV self-test"
+  }]
+}

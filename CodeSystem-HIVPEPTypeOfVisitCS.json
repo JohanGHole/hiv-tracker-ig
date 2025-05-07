@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "HIVPEPTypeOfVisitCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVPEPTypeOfVisitCS</b></p><a name=\"HIVPEPTypeOfVisitCS\"> </a><a name=\"hcHIVPEPTypeOfVisitCS\"> </a><a name=\"HIVPEPTypeOfVisitCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVPEPTypeOfVisitCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PEP_INITIATION<a name=\"HIVPEPTypeOfVisitCS-PEP_INITIATION\"> </a></td><td>Initiation of PEP</td></tr><tr><td style=\"white-space:nowrap\">PEP_FOLLOW_UP_VISIT<a name=\"HIVPEPTypeOfVisitCS-PEP_FOLLOW_UP_VISIT\"> </a></td><td>Follow-up visit</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/HIVPEPTypeOfVisitCS",
+  "version" : "0.1.0",
+  "name" : "HIVPEPTypeOfVisitCS",
+  "title" : "HIV - PEP: type of visit",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-05-07T10:57:06+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "PEP_INITIATION",
+    "display" : "Initiation of PEP"
+  },
+  {
+    "code" : "PEP_FOLLOW_UP_VISIT",
+    "display" : "Follow-up visit"
+  }]
+}

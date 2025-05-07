@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/HIVSTATUSCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "HIVSTATUSCS"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVSTATUSCS</b></p><a name=\"HIVSTATUSCS\"> </a><a name=\"hcHIVSTATUSCS\"> </a><a name=\"HIVSTATUSCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVSTATUSCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RETAINED<a name=\"HIVSTATUSCS-RETAINED\"> </a></td><td>PLHIV</td></tr><tr><td style=\"white-space:nowrap\">DEAD<a name=\"HIVSTATUSCS-DEAD\"> </a></td><td>Death (documented)</td></tr><tr><td style=\"white-space:nowrap\">TREATMENTSTOPPED<a name=\"HIVSTATUSCS-TREATMENTSTOPPED\"> </a></td><td>Refused (stopped) treatment</td></tr><tr><td style=\"white-space:nowrap\">LTFU<a name=\"HIVSTATUSCS-LTFU\"> </a></td><td>Lost to follow up</td></tr><tr><td style=\"white-space:nowrap\">TRANSFEROUT<a name=\"HIVSTATUSCS-TRANSFEROUT\"> </a></td><td>Transferred out</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/HIVSTATUSCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "HIVSTATUSCS"] ; # 
+  fhir:title [ fhir:v "HIV - STATUS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-05-07T10:57:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "RETAINED" ] ;
+     fhir:display [ fhir:v "PLHIV" ]
+  ] [
+     fhir:code [ fhir:v "DEAD" ] ;
+     fhir:display [ fhir:v "Death (documented)" ]
+  ] [
+     fhir:code [ fhir:v "TREATMENTSTOPPED" ] ;
+     fhir:display [ fhir:v "Refused (stopped) treatment" ]
+  ] [
+     fhir:code [ fhir:v "LTFU" ] ;
+     fhir:display [ fhir:v "Lost to follow up" ]
+  ] [
+     fhir:code [ fhir:v "TRANSFEROUT" ] ;
+     fhir:display [ fhir:v "Transferred out" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

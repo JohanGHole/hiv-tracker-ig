@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/HIVProbableRouteOfTransmissionCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "HIVProbableRouteOfTransmissionCS"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVProbableRouteOfTransmissionCS</b></p><a name=\"HIVProbableRouteOfTransmissionCS\"> </a><a name=\"hcHIVProbableRouteOfTransmissionCS\"> </a><a name=\"HIVProbableRouteOfTransmissionCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVProbableRouteOfTransmissionCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HETEROSEXUAL_SEX<a name=\"HIVProbableRouteOfTransmissionCS-HETEROSEXUAL_SEX\"> </a></td><td>Heterosexual sex</td></tr><tr><td style=\"white-space:nowrap\">SEX_BETWEEN_MEN<a name=\"HIVProbableRouteOfTransmissionCS-SEX_BETWEEN_MEN\"> </a></td><td>Sex between men</td></tr><tr><td style=\"white-space:nowrap\">UNPROTECTED_SEX_WORKER<a name=\"HIVProbableRouteOfTransmissionCS-UNPROTECTED_SEX_WORKER\"> </a></td><td>Unprotected intercourse during sex work</td></tr><tr><td style=\"white-space:nowrap\">INJECTION_DRUGS_UNSTERILE<a name=\"HIVProbableRouteOfTransmissionCS-INJECTION_DRUGS_UNSTERILE\"> </a></td><td>Injecting drug use with unsterile equipment</td></tr><tr><td style=\"white-space:nowrap\">NOSOCOMIAL<a name=\"HIVProbableRouteOfTransmissionCS-NOSOCOMIAL\"> </a></td><td>Nosocomial</td></tr><tr><td style=\"white-space:nowrap\">VERTICAL<a name=\"HIVProbableRouteOfTransmissionCS-VERTICAL\"> </a></td><td>Vertical</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"HIVProbableRouteOfTransmissionCS-OTHER\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/HIVProbableRouteOfTransmissionCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "HIVProbableRouteOfTransmissionCS"] ; # 
+  fhir:title [ fhir:v "HIV - Probable route of transmission"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-05-07T10:57:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "HETEROSEXUAL_SEX" ] ;
+     fhir:display [ fhir:v "Heterosexual sex" ]
+  ] [
+     fhir:code [ fhir:v "SEX_BETWEEN_MEN" ] ;
+     fhir:display [ fhir:v "Sex between men" ]
+  ] [
+     fhir:code [ fhir:v "UNPROTECTED_SEX_WORKER" ] ;
+     fhir:display [ fhir:v "Unprotected intercourse during sex work" ]
+  ] [
+     fhir:code [ fhir:v "INJECTION_DRUGS_UNSTERILE" ] ;
+     fhir:display [ fhir:v "Injecting drug use with unsterile equipment" ]
+  ] [
+     fhir:code [ fhir:v "NOSOCOMIAL" ] ;
+     fhir:display [ fhir:v "Nosocomial" ]
+  ] [
+     fhir:code [ fhir:v "VERTICAL" ] ;
+     fhir:display [ fhir:v "Vertical" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

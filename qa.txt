@@ -1,0 +1,599 @@
+HIVTrackerIG : Validation Results
+=========================================
+
+err = 154, warn = 214, info = 0
+IG Publisher Version: 1.8.25
+Generated Wed May 07 10:58:49 UTC 2025. FHIR version 4.0.1 for hiv.tracker#0.1.0 (canonical = http://example.org)
+ Build Errors : 0 / 112 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-GENCountriesCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVANCHIVStatusFirstVisitCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVARTStopReasonsCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVCervicalCancerDiagnosisCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVCervicalCancerScreeningOutcomeCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVCervicalCancerTreatmentTypeCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVDSDARTModelSCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVExperienceCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVFacilityLevelTestingEntryPointCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVFollowUpMethodsCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVFollowUpOutcomesCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVGenderCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVHBVTreatmentStatusCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVHCVMedicineTypeCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVHCVTestTypeCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVHCVTreatmentStatusCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVHCVViralLoadCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVHIVTestHIVSelfTestUseCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVHIVTestResultCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVHPVDosesReceivedCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVListStisCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVOAMTFormulationCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPEPExposureCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPEPNonOccupationalCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPEPTypeOfVisitCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPMTCTTestTypeCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPartnerHIVStatusCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPlaceOfDeliveryCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPrepAdverseEffectCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPrepDosingTypeCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPrepFormulationCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVPrepReasonDiscontinuationCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVProbableRouteOfTransmissionCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVReasonForFollowUpCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVSTATUSCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVSTISyndromeAssignedCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVSexAtBirthCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTBDiagnosticTestCategoryCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTBTestResultCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTPTPreventiveTreatmentCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTPTRegimenCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTestProvisionCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTestResultCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTestTBStatusCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTreatmentTreatmentStatusCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTypeOfCommunityLevelTestingCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVTypeOfCondomsCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVVMMCSeverityOfAdverseEventsCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVVMMCTimingOfAdverseEventsCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVVMMCTypeOfAdverseEventsCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/CodeSystem-HIVViralHepatitisTestResultCS : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/ImplementationGuide-hiv.tracker : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-FollowUpQuestionnaire : 6 / 0 / 13
+ /github/workspace/fsh-generated/resources/Questionnaire-InitialCaseReportQuestionnaire : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-VisitQuestionnaire : 46 / 0 / 93
+ /github/workspace/fsh-generated/resources/StructureDefinition-FollowUp : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-HIVCaseSurveillance : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-HIVPrevention : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-InitialCaseReport : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Visit : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-GENCountriesVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVANCHIVStatusFirstVisitVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVARTStopReasonsVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVCervicalCancerDiagnosisVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVCervicalCancerScreeningOutcomeVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVCervicalCancerTreatmentTypeVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVDSDARTModelSVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVExperienceVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVFacilityLevelTestingEntryPointVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVFollowUpMethodsVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVFollowUpOutcomesVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVGenderVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVHBVTreatmentStatusVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVHCVMedicineTypeVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVHCVTestTypeVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVHCVTreatmentStatusVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVHCVViralLoadVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVHIVTestHIVSelfTestUseVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVHIVTestResultVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVHPVDosesReceivedVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVListStisVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVOAMTFormulationVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPEPExposureVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPEPNonOccupationalVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPEPTypeOfVisitVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPMTCTTestTypeVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPartnerHIVStatusVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPlaceOfDeliveryVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPrepAdverseEffectVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPrepDosingTypeVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPrepFormulationVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVPrepReasonDiscontinuationVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVProbableRouteOfTransmissionVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVReasonForFollowUpVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVSTATUSVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVSTISyndromeAssignedVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVSexAtBirthVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTBDiagnosticTestCategoryVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTBTestResultVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTPTPreventiveTreatmentVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTPTRegimenVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTestProvisionVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTestResultVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTestTBStatusVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTreatmentTreatmentStatusVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTypeOfCommunityLevelTestingVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVTypeOfCondomsVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVVMMCSeverityOfAdverseEventsVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVVMMCTimingOfAdverseEventsVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVVMMCTypeOfAdverseEventsVS : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/ValueSet-HIVViralHepatitisTestResultVS : 1 / 1 / 6
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HIVCaseSurveillance.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HIVPrevention.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/InitialCaseReport.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Visit.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/InitialCaseReportQuestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/VisitQuestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/GENCountriesVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVANCHIVStatusFirstVisitVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVARTStopReasonsVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVCervicalCancerDiagnosisVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVCervicalCancerScreeningOutcomeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVCervicalCancerTreatmentTypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVDSDARTModelSVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVExperienceVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVFacilityLevelTestingEntryPointVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVFollowUpMethodsVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVFollowUpOutcomesVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVGenderVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVHBVTreatmentStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVHCVMedicineTypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVHCVTestTypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVHCVTreatmentStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVHCVViralLoadVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVHIVTestResultVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVHIVTestHIVSelfTestUseVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVHPVDosesReceivedVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVListStisVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVOAMTFormulationVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPEPExposureVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPEPNonOccupationalVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPEPTypeOfVisitVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPMTCTTestTypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPartnerHIVStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPlaceOfDeliveryVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPrepAdverseEffectVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPrepDosingTypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPrepFormulationVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVPrepReasonDiscontinuationVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVProbableRouteOfTransmissionVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVReasonForFollowUpVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVSTATUSVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVSTISyndromeAssignedVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVSexAtBirthVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTBDiagnosticTestCategoryVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTBTestResultVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTPTRegimenVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTPTPreventiveTreatmentVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTestProvisionVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTestResultVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTestTBStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTreatmentTreatmentStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTypeOfCommunityLevelTestingVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVTypeOfCondomsVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVVMMCSeverityOfAdverseEventsVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVVMMCTimingOfAdverseEventsVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVVMMCTypeOfAdverseEventsVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/HIVViralHepatitisTestResultVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/GENCountriesCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVANCHIVStatusFirstVisitCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVARTStopReasonsCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVCervicalCancerDiagnosisCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVCervicalCancerScreeningOutcomeCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVCervicalCancerTreatmentTypeCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVDSDARTModelSCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVExperienceCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVFacilityLevelTestingEntryPointCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVFollowUpMethodsCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVFollowUpOutcomesCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVGenderCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVHBVTreatmentStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVHCVMedicineTypeCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVHCVTestTypeCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVHCVTreatmentStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVHCVViralLoadCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVHIVTestResultCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVHIVTestHIVSelfTestUseCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVHPVDosesReceivedCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVListStisCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVOAMTFormulationCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPEPExposureCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPEPNonOccupationalCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPEPTypeOfVisitCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPMTCTTestTypeCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPartnerHIVStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPlaceOfDeliveryCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPrepAdverseEffectCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPrepDosingTypeCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPrepFormulationCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVPrepReasonDiscontinuationCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVProbableRouteOfTransmissionCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVReasonForFollowUpCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVSTATUSCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVSTISyndromeAssignedCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVSexAtBirthCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTBDiagnosticTestCategoryCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTBTestResultCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTPTRegimenCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTPTPreventiveTreatmentCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTestProvisionCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTestResultCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTestTBStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTreatmentTreatmentStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTypeOfCommunityLevelTestingCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVTypeOfCondomsCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVVMMCSeverityOfAdverseEventsCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVVMMCTimingOfAdverseEventsCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVVMMCTypeOfAdverseEventsCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/HIVViralHepatitisTestResultCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-GENCountriesCS.json ==
+ERROR: CodeSystem/GENCountriesCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/GENCountriesCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVANCHIVStatusFirstVisitCS.json ==
+ERROR: CodeSystem/HIVANCHIVStatusFirstVisitCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVANCHIVStatusFirstVisitCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVARTStopReasonsCS.json ==
+ERROR: CodeSystem/HIVARTStopReasonsCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVARTStopReasonsCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVCervicalCancerDiagnosisCS.json ==
+ERROR: CodeSystem/HIVCervicalCancerDiagnosisCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVCervicalCancerDiagnosisCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVCervicalCancerScreeningOutcomeCS.json ==
+ERROR: CodeSystem/HIVCervicalCancerScreeningOutcomeCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVCervicalCancerScreeningOutcomeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVCervicalCancerTreatmentTypeCS.json ==
+ERROR: CodeSystem/HIVCervicalCancerTreatmentTypeCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVCervicalCancerTreatmentTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVDSDARTModelSCS.json ==
+ERROR: CodeSystem/HIVDSDARTModelSCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVDSDARTModelSCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVExperienceCS.json ==
+ERROR: CodeSystem/HIVExperienceCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVExperienceCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVFacilityLevelTestingEntryPointCS.json ==
+ERROR: CodeSystem/HIVFacilityLevelTestingEntryPointCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVFacilityLevelTestingEntryPointCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVFollowUpMethodsCS.json ==
+ERROR: CodeSystem/HIVFollowUpMethodsCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVFollowUpMethodsCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVFollowUpOutcomesCS.json ==
+ERROR: CodeSystem/HIVFollowUpOutcomesCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVFollowUpOutcomesCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVGenderCS.json ==
+ERROR: CodeSystem/HIVGenderCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVGenderCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVHBVTreatmentStatusCS.json ==
+ERROR: CodeSystem/HIVHBVTreatmentStatusCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVHBVTreatmentStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVHCVMedicineTypeCS.json ==
+ERROR: CodeSystem/HIVHCVMedicineTypeCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVHCVMedicineTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVHCVTestTypeCS.json ==
+ERROR: CodeSystem/HIVHCVTestTypeCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVHCVTestTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVHCVTreatmentStatusCS.json ==
+ERROR: CodeSystem/HIVHCVTreatmentStatusCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVHCVTreatmentStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVHCVViralLoadCS.json ==
+ERROR: CodeSystem/HIVHCVViralLoadCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVHCVViralLoadCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVHIVTestHIVSelfTestUseCS.json ==
+ERROR: CodeSystem/HIVHIVTestHIVSelfTestUseCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVHIVTestHIVSelfTestUseCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVHIVTestResultCS.json ==
+ERROR: CodeSystem/HIVHIVTestResultCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVHIVTestResultCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVHPVDosesReceivedCS.json ==
+ERROR: CodeSystem/HIVHPVDosesReceivedCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVHPVDosesReceivedCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVListStisCS.json ==
+ERROR: CodeSystem/HIVListStisCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVListStisCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVOAMTFormulationCS.json ==
+ERROR: CodeSystem/HIVOAMTFormulationCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVOAMTFormulationCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPEPExposureCS.json ==
+ERROR: CodeSystem/HIVPEPExposureCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPEPExposureCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPEPNonOccupationalCS.json ==
+ERROR: CodeSystem/HIVPEPNonOccupationalCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPEPNonOccupationalCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPEPTypeOfVisitCS.json ==
+ERROR: CodeSystem/HIVPEPTypeOfVisitCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPEPTypeOfVisitCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPMTCTTestTypeCS.json ==
+ERROR: CodeSystem/HIVPMTCTTestTypeCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPMTCTTestTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPartnerHIVStatusCS.json ==
+ERROR: CodeSystem/HIVPartnerHIVStatusCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPartnerHIVStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPlaceOfDeliveryCS.json ==
+ERROR: CodeSystem/HIVPlaceOfDeliveryCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPlaceOfDeliveryCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPrepAdverseEffectCS.json ==
+ERROR: CodeSystem/HIVPrepAdverseEffectCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPrepAdverseEffectCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPrepDosingTypeCS.json ==
+ERROR: CodeSystem/HIVPrepDosingTypeCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPrepDosingTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPrepFormulationCS.json ==
+ERROR: CodeSystem/HIVPrepFormulationCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPrepFormulationCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVPrepReasonDiscontinuationCS.json ==
+ERROR: CodeSystem/HIVPrepReasonDiscontinuationCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVPrepReasonDiscontinuationCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVProbableRouteOfTransmissionCS.json ==
+ERROR: CodeSystem/HIVProbableRouteOfTransmissionCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVProbableRouteOfTransmissionCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVReasonForFollowUpCS.json ==
+ERROR: CodeSystem/HIVReasonForFollowUpCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVReasonForFollowUpCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVSTATUSCS.json ==
+ERROR: CodeSystem/HIVSTATUSCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVSTATUSCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVSTISyndromeAssignedCS.json ==
+ERROR: CodeSystem/HIVSTISyndromeAssignedCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVSTISyndromeAssignedCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVSexAtBirthCS.json ==
+ERROR: CodeSystem/HIVSexAtBirthCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVSexAtBirthCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTBDiagnosticTestCategoryCS.json ==
+ERROR: CodeSystem/HIVTBDiagnosticTestCategoryCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTBDiagnosticTestCategoryCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTBTestResultCS.json ==
+ERROR: CodeSystem/HIVTBTestResultCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTBTestResultCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTPTPreventiveTreatmentCS.json ==
+ERROR: CodeSystem/HIVTPTPreventiveTreatmentCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTPTPreventiveTreatmentCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTPTRegimenCS.json ==
+ERROR: CodeSystem/HIVTPTRegimenCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTPTRegimenCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTestProvisionCS.json ==
+ERROR: CodeSystem/HIVTestProvisionCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTestProvisionCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTestResultCS.json ==
+ERROR: CodeSystem/HIVTestResultCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTestResultCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTestTBStatusCS.json ==
+ERROR: CodeSystem/HIVTestTBStatusCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTestTBStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTreatmentTreatmentStatusCS.json ==
+ERROR: CodeSystem/HIVTreatmentTreatmentStatusCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTreatmentTreatmentStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTypeOfCommunityLevelTestingCS.json ==
+ERROR: CodeSystem/HIVTypeOfCommunityLevelTestingCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTypeOfCommunityLevelTestingCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVTypeOfCondomsCS.json ==
+ERROR: CodeSystem/HIVTypeOfCondomsCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVTypeOfCondomsCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVVMMCSeverityOfAdverseEventsCS.json ==
+ERROR: CodeSystem/HIVVMMCSeverityOfAdverseEventsCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVVMMCSeverityOfAdverseEventsCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVVMMCTimingOfAdverseEventsCS.json ==
+ERROR: CodeSystem/HIVVMMCTimingOfAdverseEventsCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVVMMCTimingOfAdverseEventsCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVVMMCTypeOfAdverseEventsCS.json ==
+ERROR: CodeSystem/HIVVMMCTypeOfAdverseEventsCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVVMMCTypeOfAdverseEventsCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-HIVViralHepatitisTestResultCS.json ==
+ERROR: CodeSystem/HIVViralHepatitisTestResultCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/HIVViralHepatitisTestResultCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-hiv.tracker.json ==
+== fsh-generated/resources/Questionnaire-FollowUpQuestionnaire.json ==
+ERROR: Questionnaire/FollowUpQuestionnaire: Questionnaire.contained[0]/*ValueSet/HIVFollowUpMethodsVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/FollowUpQuestionnaire: Questionnaire.contained[0]/*ValueSet/HIVFollowUpMethodsVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/FollowUpQuestionnaire: Questionnaire.contained[1]/*ValueSet/HIVFollowUpOutcomesVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/FollowUpQuestionnaire: Questionnaire.contained[1]/*ValueSet/HIVFollowUpOutcomesVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/FollowUpQuestionnaire: Questionnaire.contained[2]/*ValueSet/HIVReasonForFollowUpVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/FollowUpQuestionnaire: Questionnaire.contained[2]/*ValueSet/HIVReasonForFollowUpVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+== fsh-generated/resources/Questionnaire-InitialCaseReportQuestionnaire.json ==
+== fsh-generated/resources/Questionnaire-VisitQuestionnaire.json ==
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[0]/*ValueSet/HIVTypeOfCondomsVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[0]/*ValueSet/HIVTypeOfCondomsVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[1]/*ValueSet/HIVTestProvisionVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[1]/*ValueSet/HIVTestProvisionVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[2]/*ValueSet/HIVTestTBStatusVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[2]/*ValueSet/HIVTestTBStatusVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[3]/*ValueSet/HIVPartnerHIVStatusVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[3]/*ValueSet/HIVPartnerHIVStatusVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[4]/*ValueSet/HIVHIVTestResultVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[4]/*ValueSet/HIVHIVTestResultVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[5]/*ValueSet/HIVHIVTestHIVSelfTestUseVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[5]/*ValueSet/HIVHIVTestHIVSelfTestUseVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[6]/*ValueSet/HIVExperienceVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[6]/*ValueSet/HIVExperienceVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[7]/*ValueSet/HIVPrepReasonDiscontinuationVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[7]/*ValueSet/HIVPrepReasonDiscontinuationVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[8]/*ValueSet/HIVPrepAdverseEffectVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[8]/*ValueSet/HIVPrepAdverseEffectVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[9]/*ValueSet/HIVPrepFormulationVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[9]/*ValueSet/HIVPrepFormulationVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[10]/*ValueSet/HIVPrepDosingTypeVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[10]/*ValueSet/HIVPrepDosingTypeVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[11]/*ValueSet/HIVPEPTypeOfVisitVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[11]/*ValueSet/HIVPEPTypeOfVisitVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[12]/*ValueSet/HIVPEPExposureVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[12]/*ValueSet/HIVPEPExposureVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[13]/*ValueSet/HIVPEPNonOccupationalVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[13]/*ValueSet/HIVPEPNonOccupationalVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[14]/*ValueSet/HIVOAMTFormulationVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[14]/*ValueSet/HIVOAMTFormulationVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[15]/*ValueSet/HIVVMMCTypeOfAdverseEventsVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[15]/*ValueSet/HIVVMMCTypeOfAdverseEventsVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[16]/*ValueSet/HIVVMMCSeverityOfAdverseEventsVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[16]/*ValueSet/HIVVMMCSeverityOfAdverseEventsVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[17]/*ValueSet/HIVVMMCTimingOfAdverseEventsVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[17]/*ValueSet/HIVVMMCTimingOfAdverseEventsVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[18]/*ValueSet/HIVSTISyndromeAssignedVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[18]/*ValueSet/HIVSTISyndromeAssignedVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[19]/*ValueSet/HIVListStisVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[19]/*ValueSet/HIVListStisVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[20]/*ValueSet/HIVTestResultVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[20]/*ValueSet/HIVTestResultVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[21]/*ValueSet/HIVViralHepatitisTestResultVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[21]/*ValueSet/HIVViralHepatitisTestResultVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[22]/*ValueSet/HIVHCVTestTypeVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/VisitQuestionnaire: Questionnaire.contained[22]/*ValueSet/HIVHCVTestTypeVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+== fsh-generated/resources/StructureDefinition-FollowUp.json ==
+== fsh-generated/resources/StructureDefinition-HIVCaseSurveillance.json ==
+== fsh-generated/resources/StructureDefinition-HIVPrevention.json ==
+== fsh-generated/resources/StructureDefinition-InitialCaseReport.json ==
+== fsh-generated/resources/StructureDefinition-Visit.json ==
+== fsh-generated/resources/ValueSet-GENCountriesVS.json ==
+ERROR: ValueSet/GENCountriesVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/GENCountriesVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVANCHIVStatusFirstVisitVS.json ==
+ERROR: ValueSet/HIVANCHIVStatusFirstVisitVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVANCHIVStatusFirstVisitVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVARTStopReasonsVS.json ==
+ERROR: ValueSet/HIVARTStopReasonsVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVARTStopReasonsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVCervicalCancerDiagnosisVS.json ==
+ERROR: ValueSet/HIVCervicalCancerDiagnosisVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVCervicalCancerDiagnosisVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVCervicalCancerScreeningOutcomeVS.json ==
+ERROR: ValueSet/HIVCervicalCancerScreeningOutcomeVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVCervicalCancerScreeningOutcomeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVCervicalCancerTreatmentTypeVS.json ==
+ERROR: ValueSet/HIVCervicalCancerTreatmentTypeVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVCervicalCancerTreatmentTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVDSDARTModelSVS.json ==
+ERROR: ValueSet/HIVDSDARTModelSVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVDSDARTModelSVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVExperienceVS.json ==
+ERROR: ValueSet/HIVExperienceVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVExperienceVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVFacilityLevelTestingEntryPointVS.json ==
+ERROR: ValueSet/HIVFacilityLevelTestingEntryPointVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVFacilityLevelTestingEntryPointVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVFollowUpMethodsVS.json ==
+ERROR: ValueSet/HIVFollowUpMethodsVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVFollowUpMethodsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVFollowUpOutcomesVS.json ==
+ERROR: ValueSet/HIVFollowUpOutcomesVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVFollowUpOutcomesVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVGenderVS.json ==
+ERROR: ValueSet/HIVGenderVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVGenderVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVHBVTreatmentStatusVS.json ==
+ERROR: ValueSet/HIVHBVTreatmentStatusVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVHBVTreatmentStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVHCVMedicineTypeVS.json ==
+ERROR: ValueSet/HIVHCVMedicineTypeVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVHCVMedicineTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVHCVTestTypeVS.json ==
+ERROR: ValueSet/HIVHCVTestTypeVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVHCVTestTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVHCVTreatmentStatusVS.json ==
+ERROR: ValueSet/HIVHCVTreatmentStatusVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVHCVTreatmentStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVHCVViralLoadVS.json ==
+ERROR: ValueSet/HIVHCVViralLoadVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVHCVViralLoadVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVHIVTestHIVSelfTestUseVS.json ==
+ERROR: ValueSet/HIVHIVTestHIVSelfTestUseVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVHIVTestHIVSelfTestUseVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVHIVTestResultVS.json ==
+ERROR: ValueSet/HIVHIVTestResultVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVHIVTestResultVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVHPVDosesReceivedVS.json ==
+ERROR: ValueSet/HIVHPVDosesReceivedVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVHPVDosesReceivedVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVListStisVS.json ==
+ERROR: ValueSet/HIVListStisVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVListStisVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVOAMTFormulationVS.json ==
+ERROR: ValueSet/HIVOAMTFormulationVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVOAMTFormulationVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPEPExposureVS.json ==
+ERROR: ValueSet/HIVPEPExposureVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPEPExposureVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPEPNonOccupationalVS.json ==
+ERROR: ValueSet/HIVPEPNonOccupationalVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPEPNonOccupationalVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPEPTypeOfVisitVS.json ==
+ERROR: ValueSet/HIVPEPTypeOfVisitVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPEPTypeOfVisitVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPMTCTTestTypeVS.json ==
+ERROR: ValueSet/HIVPMTCTTestTypeVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPMTCTTestTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPartnerHIVStatusVS.json ==
+ERROR: ValueSet/HIVPartnerHIVStatusVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPartnerHIVStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPlaceOfDeliveryVS.json ==
+ERROR: ValueSet/HIVPlaceOfDeliveryVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPlaceOfDeliveryVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPrepAdverseEffectVS.json ==
+ERROR: ValueSet/HIVPrepAdverseEffectVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPrepAdverseEffectVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPrepDosingTypeVS.json ==
+ERROR: ValueSet/HIVPrepDosingTypeVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPrepDosingTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPrepFormulationVS.json ==
+ERROR: ValueSet/HIVPrepFormulationVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPrepFormulationVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVPrepReasonDiscontinuationVS.json ==
+ERROR: ValueSet/HIVPrepReasonDiscontinuationVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVPrepReasonDiscontinuationVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVProbableRouteOfTransmissionVS.json ==
+ERROR: ValueSet/HIVProbableRouteOfTransmissionVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVProbableRouteOfTransmissionVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVReasonForFollowUpVS.json ==
+ERROR: ValueSet/HIVReasonForFollowUpVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVReasonForFollowUpVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVSTATUSVS.json ==
+ERROR: ValueSet/HIVSTATUSVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVSTATUSVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVSTISyndromeAssignedVS.json ==
+ERROR: ValueSet/HIVSTISyndromeAssignedVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVSTISyndromeAssignedVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVSexAtBirthVS.json ==
+ERROR: ValueSet/HIVSexAtBirthVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVSexAtBirthVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTBDiagnosticTestCategoryVS.json ==
+ERROR: ValueSet/HIVTBDiagnosticTestCategoryVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTBDiagnosticTestCategoryVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTBTestResultVS.json ==
+ERROR: ValueSet/HIVTBTestResultVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTBTestResultVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTPTPreventiveTreatmentVS.json ==
+ERROR: ValueSet/HIVTPTPreventiveTreatmentVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTPTPreventiveTreatmentVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTPTRegimenVS.json ==
+ERROR: ValueSet/HIVTPTRegimenVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTPTRegimenVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTestProvisionVS.json ==
+ERROR: ValueSet/HIVTestProvisionVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTestProvisionVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTestResultVS.json ==
+ERROR: ValueSet/HIVTestResultVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTestResultVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTestTBStatusVS.json ==
+ERROR: ValueSet/HIVTestTBStatusVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTestTBStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTreatmentTreatmentStatusVS.json ==
+ERROR: ValueSet/HIVTreatmentTreatmentStatusVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTreatmentTreatmentStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTypeOfCommunityLevelTestingVS.json ==
+ERROR: ValueSet/HIVTypeOfCommunityLevelTestingVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTypeOfCommunityLevelTestingVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVTypeOfCondomsVS.json ==
+ERROR: ValueSet/HIVTypeOfCondomsVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVTypeOfCondomsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVVMMCSeverityOfAdverseEventsVS.json ==
+ERROR: ValueSet/HIVVMMCSeverityOfAdverseEventsVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVVMMCSeverityOfAdverseEventsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVVMMCTimingOfAdverseEventsVS.json ==
+ERROR: ValueSet/HIVVMMCTimingOfAdverseEventsVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVVMMCTimingOfAdverseEventsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVVMMCTypeOfAdverseEventsVS.json ==
+ERROR: ValueSet/HIVVMMCTypeOfAdverseEventsVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVVMMCTypeOfAdverseEventsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-HIVViralHepatitisTestResultVS.json ==
+ERROR: ValueSet/HIVViralHepatitisTestResultVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/HIVViralHepatitisTestResultVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVARTStopReasonsCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem HIVARTStopReasonsCS</b></p><a name="HIVARTStopReasonsCS"> </a><a name="hcHIVARTStopReasonsCS"> </a><a name="HIVARTStopReasonsCS-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVARTStopReasonsCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">TOXICITY_SIDE_EFFECTS<a name="HIVARTStopReasonsCS-TOXICITY_SIDE_EFFECTS"> </a></td><td>Toxicity/side effects</td></tr><tr><td style="white-space:nowrap">SEVERE_ILLNESS_HOSPITALIZATION<a name="HIVARTStopReasonsCS-SEVERE_ILLNESS_HOSPITALIZATION"> </a></td><td>Severe illness (hospitalization)</td></tr><tr><td style="white-space:nowrap">DRUGS_OUT_OF_STOCK<a name="HIVARTStopReasonsCS-DRUGS_OUT_OF_STOCK"> </a></td><td>Drugs out of stock</td></tr><tr><td style="white-space:nowrap">LACKS_FINANCES<a name="HIVARTStopReasonsCS-LACKS_FINANCES"> </a></td><td>Lacks finances</td></tr><tr><td style="white-space:nowrap">EXCLUDED_HIV_INFECTION_IN_INFANT<a name="HIVARTStopReasonsCS-EXCLUDED_HIV_INFECTION_IN_INFANT"> </a></td><td>Excluded HIV infection in infant</td></tr><tr><td style="white-space:nowrap">OTHER<a name="HIVARTStopReasonsCS-OTHER"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HIVARTStopReasonsCS"/>
+  <version value="0.1.0"/>
+  <name value="HIVARTStopReasonsCS"/>
+  <title value="HIV - ART stop reasons"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-05-07T10:57:06+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="TOXICITY_SIDE_EFFECTS"/>
+    <display value="Toxicity/side effects"/>
+  </concept>
+  <concept>
+    <code value="SEVERE_ILLNESS_HOSPITALIZATION"/>
+    <display value="Severe illness (hospitalization)"/>
+  </concept>
+  <concept>
+    <code value="DRUGS_OUT_OF_STOCK"/>
+    <display value="Drugs out of stock"/>
+  </concept>
+  <concept>
+    <code value="LACKS_FINANCES"/>
+    <display value="Lacks finances"/>
+  </concept>
+  <concept>
+    <code value="EXCLUDED_HIV_INFECTION_IN_INFANT"/>
+    <display value="Excluded HIV infection in infant"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

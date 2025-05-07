@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVANCHIVStatusFirstVisitCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem HIVANCHIVStatusFirstVisitCS</b></p><a name="HIVANCHIVStatusFirstVisitCS"> </a><a name="hcHIVANCHIVStatusFirstVisitCS"> </a><a name="HIVANCHIVStatusFirstVisitCS-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVANCHIVStatusFirstVisitCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">KNOWN_HIV_POSITIVE<a name="HIVANCHIVStatusFirstVisitCS-KNOWN_HIV_POSITIVE"> </a></td><td>Known HIV-positive</td></tr><tr><td style="white-space:nowrap">FIRST_TIME_TESTED_HIV<a name="HIVANCHIVStatusFirstVisitCS-FIRST_TIME_TESTED_HIV"> </a></td><td>First time tested for HIV</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HIVANCHIVStatusFirstVisitCS"/>
+  <version value="0.1.0"/>
+  <name value="HIVANCHIVStatusFirstVisitCS"/>
+  <title value="HIV - ANC HIV status first visit"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-05-07T10:57:06+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="KNOWN_HIV_POSITIVE"/>
+    <display value="Known HIV-positive"/>
+  </concept>
+  <concept>
+    <code value="FIRST_TIME_TESTED_HIV"/>
+    <display value="First time tested for HIV"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,11 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"FollowUp","FollowUp","","","",0,*,"","","","null {[]} {[]}
+","Follow-up","Used when there is a need to contact the client","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"FollowUp.hivFollowUpMethod","FollowUp.hivFollowUpMethod","","","",0,1,"","","","code {[]} {[]}
+","HIV - Follow up Method","HIV - Follow up Method","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVFollowUpMethodsVS","",,,,"FollowUp.hivFollowUpMethod",0,1,"",""
+"FollowUp.hivFollowUpOutcome","FollowUp.hivFollowUpOutcome","","","",0,1,"","","","code {[]} {[]}
+","HIV - Follow up Outcome","HIV - Follow up Outcome","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVFollowUpOutcomesVS","",,,,"FollowUp.hivFollowUpOutcome",0,1,"",""
+"FollowUp.hivFollowUpNotes","FollowUp.hivFollowUpNotes","","","",0,1,"","","","string {[]} {[]}
+","HIV - Follow-up Notes","HIV - Follow-up Notes","","","","","","","","","",,,,,"",,,,"FollowUp.hivFollowUpNotes",0,1,"",""
+"FollowUp.hivFollowUpReason","FollowUp.hivFollowUpReason","","","",0,1,"","","","code {[]} {[]}
+","HIV - Follow up Reason","HIV - Follow up Reason","","","","","","","","","",,"required","","http://example.org/ValueSet/HIVReasonForFollowUpVS","",,,,"FollowUp.hivFollowUpReason",0,1,"",""

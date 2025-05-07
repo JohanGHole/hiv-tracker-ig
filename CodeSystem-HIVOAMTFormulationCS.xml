@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVOAMTFormulationCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem HIVOAMTFormulationCS</b></p><a name="HIVOAMTFormulationCS"> </a><a name="hcHIVOAMTFormulationCS"> </a><a name="HIVOAMTFormulationCS-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVOAMTFormulationCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">METHADONE<a name="HIVOAMTFormulationCS-METHADONE"> </a></td><td>Methadone</td></tr><tr><td style="white-space:nowrap">BUPRENORPHINE<a name="HIVOAMTFormulationCS-BUPRENORPHINE"> </a></td><td>Buprenorphine</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HIVOAMTFormulationCS"/>
+  <version value="0.1.0"/>
+  <name value="HIVOAMTFormulationCS"/>
+  <title value="HIV - OAMT formulation"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-05-07T10:57:06+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="METHADONE"/>
+    <display value="Methadone"/>
+  </concept>
+  <concept>
+    <code value="BUPRENORPHINE"/>
+    <display value="Buprenorphine"/>
+  </concept>
+</CodeSystem>

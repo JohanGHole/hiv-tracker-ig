@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVFollowUpOutcomesCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem HIVFollowUpOutcomesCS</b></p><a name="HIVFollowUpOutcomesCS"> </a><a name="hcHIVFollowUpOutcomesCS"> </a><a name="HIVFollowUpOutcomesCS-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVFollowUpOutcomesCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">RESCHEDULED<a name="HIVFollowUpOutcomesCS-RESCHEDULED"> </a></td><td>Returning to clinic</td></tr><tr><td style="white-space:nowrap">TRANSFERRED_OUT<a name="HIVFollowUpOutcomesCS-TRANSFERRED_OUT"> </a></td><td>Self-transferred out</td></tr><tr><td style="white-space:nowrap">HOSPITALIZED<a name="HIVFollowUpOutcomesCS-HOSPITALIZED"> </a></td><td>Hospitalized</td></tr><tr><td style="white-space:nowrap">REFUSED_TO_RETURN<a name="HIVFollowUpOutcomesCS-REFUSED_TO_RETURN"> </a></td><td>Refused to return</td></tr><tr><td style="white-space:nowrap">NORESPONSE<a name="HIVFollowUpOutcomesCS-NORESPONSE"> </a></td><td>Not located</td></tr><tr><td style="white-space:nowrap">DIED_REPORTED<a name="HIVFollowUpOutcomesCS-DIED_REPORTED"> </a></td><td>Died (reported)</td></tr><tr><td style="white-space:nowrap">DIED_CONFIRMED<a name="HIVFollowUpOutcomesCS-DIED_CONFIRMED"> </a></td><td>Confirmed Dead</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HIVFollowUpOutcomesCS"/>
+  <version value="0.1.0"/>
+  <name value="HIVFollowUpOutcomesCS"/>
+  <title value="HIV - Follow-up Outcomes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-05-07T10:57:06+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="RESCHEDULED"/>
+    <display value="Returning to clinic"/>
+  </concept>
+  <concept>
+    <code value="TRANSFERRED_OUT"/>
+    <display value="Self-transferred out"/>
+  </concept>
+  <concept>
+    <code value="HOSPITALIZED"/>
+    <display value="Hospitalized"/>
+  </concept>
+  <concept>
+    <code value="REFUSED_TO_RETURN"/>
+    <display value="Refused to return"/>
+  </concept>
+  <concept>
+    <code value="NORESPONSE"/>
+    <display value="Not located"/>
+  </concept>
+  <concept>
+    <code value="DIED_REPORTED"/>
+    <display value="Died (reported)"/>
+  </concept>
+  <concept>
+    <code value="DIED_CONFIRMED"/>
+    <display value="Confirmed Dead"/>
+  </concept>
+</CodeSystem>

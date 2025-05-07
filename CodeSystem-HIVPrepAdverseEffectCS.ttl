@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/HIVPrepAdverseEffectCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "HIVPrepAdverseEffectCS"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem HIVPrepAdverseEffectCS</b></p><a name=\"HIVPrepAdverseEffectCS\"> </a><a name=\"hcHIVPrepAdverseEffectCS\"> </a><a name=\"HIVPrepAdverseEffectCS-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/HIVPrepAdverseEffectCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CONFIG_1<a name=\"HIVPrepAdverseEffectCS-CONFIG_1\"> </a></td><td>CONFIG_1</td></tr><tr><td style=\"white-space:nowrap\">CONFIG_2<a name=\"HIVPrepAdverseEffectCS-CONFIG_2\"> </a></td><td>CONFIG_2</td></tr><tr><td style=\"white-space:nowrap\">CONFIG_3<a name=\"HIVPrepAdverseEffectCS-CONFIG_3\"> </a></td><td>CONFIG_3</td></tr><tr><td style=\"white-space:nowrap\">CONFIG_4<a name=\"HIVPrepAdverseEffectCS-CONFIG_4\"> </a></td><td>CONFIG_4</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"HIVPrepAdverseEffectCS-OTHER\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/HIVPrepAdverseEffectCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "HIVPrepAdverseEffectCS"] ; # 
+  fhir:title [ fhir:v "HIV - PrEP adverse effect"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-05-07T10:57:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CONFIG_1" ] ;
+     fhir:display [ fhir:v "CONFIG_1" ]
+  ] [
+     fhir:code [ fhir:v "CONFIG_2" ] ;
+     fhir:display [ fhir:v "CONFIG_2" ]
+  ] [
+     fhir:code [ fhir:v "CONFIG_3" ] ;
+     fhir:display [ fhir:v "CONFIG_3" ]
+  ] [
+     fhir:code [ fhir:v "CONFIG_4" ] ;
+     fhir:display [ fhir:v "CONFIG_4" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
